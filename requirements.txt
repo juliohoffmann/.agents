@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+binance-sdk-spot
+python-dotenv
+numpy
+pandas
+ta
+scikit-learn

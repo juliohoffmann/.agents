@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verdent Trading Simulator</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Verdent Trading Simulator</h1>
+            <p>Configure a API da Binance, execute a simulação e veja o desempenho dos agentes.</p>
+        </header>
+
+        <section class="card">
+            <h2>Configuração</h2>
+            <form id="config-form">
+                <label>Symbol Binance
+                    <input type="text" id="symbol" value="EURUSDT" />
+                </label>
+                <label>Intervalo
+                    <select id="interval">
+                        <option value="1d">1d</option>
+                        <option value="4h">4h</option>
+                        <option value="1h">1h</option>
+                        <option value="15m">15m</option>
+                    </select>
+                </label>
+                <label>Agentes
+                    <input type="number" id="num_agents" min="1" max="20" value="5" />
+                </label>
+                <label>Trades
+                    <input type="number" id="num_trades" min="1" max="300" value="100" />
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" id="use_binance" />
+                    Usar dados da Binance
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" id="live_trading_enabled" />
+                    Habilitar modo real (futuro)
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" id="include_super_agent" />
+                    Incluir Super Agente
+                </label>
+                <label>Binance API Key
+                    <input type="text" id="api_key" placeholder="API Key" />
+                </label>
+                <label>Binance Secret
+                    <input type="password" id="api_secret" placeholder="API Secret" />
+                </label>
+                <label>Binance API Base URL
+                    <input type="text" id="binance_api_base" placeholder="https://api.binance.com" />
+                </label>
+                <div class="actions">
+                    <button type="button" id="save-config">Salvar Configuração</button>
+                    <button type="button" id="binance-test">Testar Binance</button>
+                    <button type="button" id="run-sim">Executar Simulação</button>
+                </div>
+                <div id="validation-message" class="validation-message"></div>
+            </form>
+            <div id="status"></div>
+            <div id="binance-result"></div>
+        </section>
+
+        <section class="card">
+            <h2>Resultado da Simulação</h2>
+            <pre id="result-output">Nenhuma simulação executada ainda.</pre>
+        </section>
+
+        <section class="card">
+            <h2>Trades de Sucesso</h2>
+            <div class="actions">
+                <button type="button" id="refresh-success">Atualizar Sucessos</button>
+            </div>
+            <pre id="success-output">Nenhum trade de sucesso carregado ainda.</pre>
+        </section>
+
+        <section class="card">
+            <h2>Logs</h2>
+            <button type="button" id="refresh-logs">Atualizar Logs</button>
+            <pre id="logs-output">Não há logs carregados.</pre>
+        </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

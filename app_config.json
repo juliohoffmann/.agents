@@ -1,0 +1,12 @@
+{
+  "api_key": "HD9sQC0HPShgLsh52iektaOIo0SFQj1Irc3S222W1LGX7ERj2f8s775YWc0JrlyT",
+  "api_secret": "DRWyDphTH773mn3UEGBrz9hkWsRiLEb8ycpwulXTkdb5HssRYbAxvuwZYCnpljye",
+  "binance_api_base": "https://api.binance.com",
+  "symbol": "EURUSDT",
+  "interval": "15m",
+  "use_binance": true,
+  "live_trading_enabled": false,
+  "include_super_agent": true,
+  "num_agents": 5,
+  "num_trades": 100
+}
