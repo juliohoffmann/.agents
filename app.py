@@ -23,7 +23,7 @@ load_dotenv()
 
 CONFIG_FILE = Path("app_config.json")
 SUCCESS_FILE = Path("success_trades.csv")
-DEFAULT_SYMBOL = "EURUSDT"
+DEFAULT_SYMBOL = "ETHUSDT"
 DEFAULT_INTERVAL = "1d"
 DEFAULT_BINANCE_API_BASE = "https://api.binance.com"
 
@@ -298,9 +298,29 @@ def debug_config() -> Dict[str, object]:
         "interval": config.interval,
         "live_trading_enabled": config.live_trading_enabled,
         "include_super_agent": config.include_super_agent,
-        "num_agents": config.num_agents,
-        "num_trades": config.num_trades,
     }
+
+
+@app.get("/api/strategies")
+def get_strategies() -> List[Dict[str, Any]]:
+    """Retorna a lista de todas as estratégias disponíveis."""
+    from verdent import STRATEGY_LIBRARY
+    return [
+        {
+            "id": strategy_id,
+            "name": strategy["name"],
+            "type": strategy["type"],
+            "signal": strategy["signal"],
+        }
+        for strategy_id, strategy in STRATEGY_LIBRARY.items()
+    ]
+
+
+@app.get("/api/coins")
+def get_coins() -> List[str]:
+    """Retorna a lista de todas as moedas suportadas."""
+    from verdent import SUPPORTED_COINS
+    return SUPPORTED_COINS
 
 
 @app.post("/api/simulate")
@@ -358,4 +378,4 @@ def get_logs(lines: int = 80) -> Dict[str, object]:
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run("app:app", host="127.0.0.1", port=8000)
+    uvicorn.run("app:app", host="127.0.0.1", port=8000, log_level="warning")

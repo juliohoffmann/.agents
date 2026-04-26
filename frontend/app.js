@@ -144,6 +144,38 @@ async function loadSuccessTrades() {
     output.textContent = JSON.stringify(data.trades, null, 2);
 }
 
+async function loadStrategies() {
+    const response = await fetch("/api/strategies");
+    const data = await response.json();
+    const output = document.getElementById("strategies-output");
+    if (!data || data.length === 0) {
+        output.textContent = "Nenhuma estratégia disponível.";
+        return;
+    }
+    output.textContent = JSON.stringify(data, null, 2);
+}
+
+async function loadCoins() {
+    const response = await fetch("/api/coins");
+    const data = await response.json();
+    const output = document.getElementById("coins-output");
+    if (!data || data.length === 0) {
+        output.textContent = "Nenhuma moeda disponível.";
+        return;
+    }
+    output.textContent = JSON.stringify(data, null, 2);
+    
+    // Atualiza o select de símbolos com as moedas do backend
+    const symbolSelect = document.getElementById("symbol");
+    symbolSelect.innerHTML = "";
+    data.forEach(coin => {
+        const option = document.createElement("option");
+        option.value = coin.replace("/", "");
+        option.textContent = coin;
+        symbolSelect.appendChild(option);
+    });
+}
+
 window.addEventListener("DOMContentLoaded", async () => {
     await fetchConfig();
     document.getElementById("save-config").addEventListener("click", saveConfig);
@@ -151,6 +183,9 @@ window.addEventListener("DOMContentLoaded", async () => {
     document.getElementById("run-sim").addEventListener("click", runSimulation);
     document.getElementById("refresh-logs").addEventListener("click", loadLogs);
     document.getElementById("refresh-success").addEventListener("click", loadSuccessTrades);
+    document.getElementById("load-strategies").addEventListener("click", loadStrategies);
+    document.getElementById("load-coins").addEventListener("click", loadCoins);
     await loadLogs();
     await loadSuccessTrades();
+    await loadCoins();
 });

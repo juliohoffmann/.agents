@@ -16,8 +16,46 @@
         <section class="card">
             <h2>Configuração</h2>
             <form id="config-form">
-                <label>Symbol Binance
-                    <input type="text" id="symbol" value="EURUSDT" />
+                <label>Moeda
+                    <select id="symbol">
+                        <option value="ETHUSDT">ETH/USDT</option>
+                        <option value="BTCUSDT">BTC/USDT</option>
+                        <option value="BNBUSDT">BNB/USDT</option>
+                        <option value="SOLUSDT">SOL/USDT</option>
+                        <option value="XRPUSDT">XRP/USDT</option>
+                        <option value="ADAUSDT">ADA/USDT</option>
+                        <option value="DOGEUSDT">DOGE/USDT</option>
+                        <option value="TRXUSDT">TRX/USDT</option>
+                        <option value="DOTUSDT">DOT/USDT</option>
+                        <option value="MATICUSDT">MATIC/USDT</option>
+                        <option value="LTCUSDT">LTC/USDT</option>
+                        <option value="SHIBUSDT">SHIB/USDT</option>
+                        <option value="AVAXUSDT">AVAX/USDT</option>
+                        <option value="LINKUSDT">LINK/USDT</option>
+                        <option value="ATOMUSDT">ATOM/USDT</option>
+                        <option value="UNIUSDT">UNI/USDT</option>
+                        <option value="XLMUSDT">XLM/USDT</option>
+                        <option value="ETCUSDT">ETC/USDT</option>
+                        <option value="NEARUSDT">NEAR/USDT</option>
+                        <option value="APTUSDT">APT/USDT</option>
+                        <option value="FILUSDT">FIL/USDT</option>
+                        <option value="ARBUSDT">ARB/USDT</option>
+                        <option value="OPUSDT">OP/USDT</option>
+                        <option value="SUIUSDT">SUI/USDT</option>
+                        <option value="SUSHIUSDT">SUSHI/USDT</option>
+                        <option value="CRVUSDT">CRV/USDT</option>
+                        <option value="AAVEUSDT">AAVE/USDT</option>
+                        <option value="COMPUSDT">COMP/USDT</option>
+                        <option value="SNXUSDT">SNX/USDT</option>
+                        <option value="MASKUSDT">MASK/USDT</option>
+                        <option value="1INCHUSDT">1INCH/USDT</option>
+                        <option value="CFXUSDT">CFX/USDT</option>
+                        <option value="CHZUSDT">CHZ/USDT</option>
+                        <option value="SANDUSDT">SAND/USDT</option>
+                        <option value="APEUSDT">APE/USDT</option>
+                        <option value="THETAUSDT">THETA/USDT</option>
+                        <option value="NOTUSDT">NOT/USDT</option>
+                    </select>
                 </label>
                 <label>Intervalo
                     <select id="interval">
@@ -82,6 +120,22 @@
             <h2>Logs</h2>
             <button type="button" id="refresh-logs">Atualizar Logs</button>
             <pre id="logs-output">Não há logs carregados.</pre>
+        </section>
+
+        <section class="card">
+            <h2>Estratégias Disponíveis</h2>
+            <div class="actions">
+                <button type="button" id="load-strategies">Carregar Estratégias</button>
+            </div>
+            <pre id="strategies-output">Nenhuma estratégia carregada ainda.</pre>
+        </section>
+
+        <section class="card">
+            <h2>Moedas Suportadas</h2>
+            <div class="actions">
+                <button type="button" id="load-coins">Carregar Moedas</button>
+            </div>
+            <pre id="coins-output">Nenhuma moeda carregada ainda.</pre>
         </section>
     </main>
 

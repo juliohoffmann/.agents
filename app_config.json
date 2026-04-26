@@ -1,8 +1,8 @@
 {
-  "api_key": "HD9sQC0HPShgLsh52iektaOIo0SFQj1Irc3S222W1LGX7ERj2f8s775YWc0JrlyT",
-  "api_secret": "DRWyDphTH773mn3UEGBrz9hkWsRiLEb8ycpwulXTkdb5HssRYbAxvuwZYCnpljye",
-  "binance_api_base": "https://api.binance.com",
-  "symbol": "EURUSDT",
+  "api_key": "Pe0ZruWYNPqplTWzmRA745bKsFOuqGB4FJoXCv5Swp3erZbm7LFZXaSfhDdQBCk9",
+  "api_secret": "6eTu9Qkp0ihHCGY8mMnyouToKlcwVhP0Ky7qLspFXTaX1B3qyLU9PnLBbBzPhRfb",
+  "binance_api_base": "https://testnet.binance.vision",
+  "symbol": "BNBUSDT",
   "interval": "15m",
   "use_binance": true,
   "live_trading_enabled": false,

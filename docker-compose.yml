@@ -1,0 +1,17 @@
+   version: '3.8'
+   services:
+     db_mongo:
+       image: mongo:6.0  # Versão estável do MongoDB
+       container_name: verdent_mongo
+       restart: always
+       ports:
+         - "27017:27017"  # Porta local:container
+       environment:
+         MONGO_INITDB_ROOT_USERNAME: admin
+         MONGO_INITDB_ROOT_PASSWORD: 123456
+         MONGO_INITDB_DATABASE: verdent_db  # Nome do novo DB: verdent_db
+       volumes:
+         - mongo_data:/data/db  # Persistência de dados
+
+   volumes:
+     mongo_data: {}
