@@ -98,6 +98,98 @@ pre {
 
 .validation-message {
   margin-top: 12px;
+}
+
+/* Binance Account Styles */
+.binance-summary {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.binance-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #334155;
+  margin-bottom: 12px;
+}
+
+.binance-total .label {
+  font-size: 1rem;
+  color: #94a3b8;
+}
+
+.binance-total .value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #10b981;
+}
+
+.binance-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.binance-row .asset {
+  font-weight: 600;
+  color: #fbbf24;
+}
+
+.binance-row .amount {
+  color: #e2e8f0;
+}
+
+.binance-row .value {
+  color: #10b981;
+  font-weight: 500;
+}
+
+.binance-balances {
+  margin-top: 12px;
+}
+
+.binance-balances summary {
+  cursor: pointer;
+  color: #60a5fa;
+  font-weight: 500;
+  padding: 8px 0;
+}
+
+.binance-balances summary:hover {
+  color: #93c5fd;
+}
+
+.balances-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-size: 0.85rem;
+}
+
+.balances-table th,
+.balances-table td {
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid #1f2937;
+}
+
+.balances-table th {
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+.balances-table td {
+  color: #e2e8f0;
+}
+
+.balances-table tbody tr:hover {
+  background: #1e293b;
+}
   color: #f87171;
   font-weight: 600;
 }

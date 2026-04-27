@@ -5,7 +5,7 @@
   "symbol": "ADAUSDT",
   "interval": "15m",
   "use_binance": true,
-  "live_trading_enabled": false,
+  "live_trading_enabled": true,
   "include_super_agent": true,
   "num_agents": 5,
   "num_trades": 100

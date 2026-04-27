@@ -101,14 +101,14 @@ async function runSimulation() {
 }
 
 async function testBinanceConnection() {
-    statusEl.textContent = "Testando conexão Binance...";
+    statusEl.textContent = "Carregando conta Binance...";
     const payload = buildConfigPayload();
     const validation = validateBinanceConfig(payload);
 
     if (validation) {
         statusEl.textContent = validation;
         setValidationMessage(validation);
-        document.getElementById("binance-result").textContent = "";
+        document.getElementById("binance-account-section").style.display = "none";
         return;
     }
     setValidationMessage("");
@@ -119,12 +119,74 @@ async function testBinanceConnection() {
 
     if (!data.success) {
         statusEl.textContent = `Erro: ${data.detail || "falha na conexão"}`;
-        document.getElementById("binance-result").textContent = "";
+        document.getElementById("binance-account-section").style.display = "none";
         return;
     }
 
-    statusEl.textContent = "Conexão Binance válida.";
-    document.getElementById("binance-result").textContent = JSON.stringify(data, null, 2);
+    statusEl.textContent = "Conta Binance carregada com sucesso.";
+    renderBinanceAccount(data.data);
+}
+
+function renderBinanceAccount(account) {
+    const section = document.getElementById("binance-account-section");
+    const container = document.getElementById("binance-account-info");
+    
+    if (!account || !account.balances) {
+        container.innerHTML = "<p>Não foi possível obter informações da conta.</p>";
+        section.style.display = "block";
+        return;
+    }
+
+    // Filtra apenas ativos com saldo > 0
+    const balances = account.balances.filter(b => b.amount > 0);
+    
+    // Separa USDT e outros ativos
+    const usdtBalance = balances.find(b => b.asset === "USDT");
+    const otherBalances = balances.filter(b => b.asset !== "USDT").slice(0, 20);
+
+    let html = `
+        <div class="binance-summary">
+            <div class="binance-total">
+                <span class="label">Total em USDT:</span>
+                <span class="value">$${account.total_usdt?.toFixed(2) || "0.00"}</span>
+            </div>
+            ${usdtBalance ? `
+            <div class="binance-row">
+                <span class="asset">${usdtBalance.asset}</span>
+                <span class="amount">${usdtBalance.amount.toFixed(8)}</span>
+                <span class="value">$${usdtBalance.value_usdt?.toFixed(2) || "0.00"}</span>
+            </div>
+            ` : ""}
+        </div>
+        <details class="binance-balances">
+            <summary>Outros ativos (${otherBalances.length})</summary>
+            <table class="balances-table">
+                <thead>
+                    <tr>
+                        <th>Ativo</th>
+                        <th>Disponível</th>
+                        <th>Bloqueado</th>
+                        <th>Total</th>
+                        <th>Valor (USDT)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${otherBalances.map(b => `
+                    <tr>
+                        <td><strong>${b.asset}</strong></td>
+                        <td>${b.free.toFixed(8)}</td>
+                        <td>${b.locked.toFixed(8)}</td>
+                        <td>${b.amount.toFixed(8)}</td>
+                        <td>${b.value_usdt ? '$' + b.value_usdt.toFixed(2) : '-'}</td>
+                    </tr>
+                    `).join("")}
+                </tbody>
+            </table>
+        </details>
+    `;
+
+    container.innerHTML = html;
+    section.style.display = "block";
 }
 
 async function loadLogs() {

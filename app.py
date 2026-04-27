@@ -203,42 +203,28 @@ def get_binance_account_info(config: SimulatorConfig) -> Dict[str, object]:
             for quote_symbol in ["USDT", "BUSD", "BTC", "ETH"]:
                 symbol = f"{asset}{quote_symbol}"
                 try:
-                    ticker_resp = client.rest_api.ticker_price(symbol=symbol)
-                    ticker = ticker_resp.data()
-                    if hasattr(ticker, 'as_dict'):
-                        ticker = ticker.as_dict()
-                    elif hasattr(ticker, 'to_dict'):
-                        ticker = ticker.to_dict()
-                    elif not isinstance(ticker, dict):
-                        ticker = {"price": str(ticker)}
-                    
+                    ticker = client.rest_api.ticker_price(symbol=symbol).data()
                     price = float(ticker.get("price", 0))
-                    if quote_symbol in {"USDT", "BUSD"}:
-                        asset_value_usdt = amount * price
-                    elif quote_symbol == "BTC":
-                        btc_resp = client.rest_api.ticker_price(symbol="BTCUSDT")
-                        btc_data = btc_resp.data()
-                        if hasattr(btc_data, 'as_dict'):
-                            btc_data = btc_data.as_dict()
-                        elif hasattr(btc_data, 'to_dict'):
-                            btc_data = btc_data.to_dict()
-                        elif not isinstance(btc_data, dict):
-                            btc_data = {"price": str(btc_data)}
-                        btc_price = float(btc_data.get("price", 0))
-                        asset_value_usdt = amount * price * btc_price
-                    elif quote_symbol == "ETH":
-                        eth_resp = client.rest_api.ticker_price(symbol="ETHUSDT")
-                        eth_data = eth_resp.data()
-                        if hasattr(eth_data, 'as_dict'):
-                            eth_data = eth_data.as_dict()
-                        elif hasattr(eth_data, 'to_dict'):
-                            eth_data = eth_data.to_dict()
-                        elif not isinstance(eth_data, dict):
-                            eth_data = {"price": str(eth_data)}
-                        eth_price = float(eth_data.get("price", 0))
-                        asset_value_usdt = amount * price * eth_price
-                    break
-                except HTTPException:
+                    if price > 0:
+                        if quote_symbol in {"USDT", "BUSD"}:
+                            asset_value_usdt = amount * price
+                        elif quote_symbol == "BTC":
+                            btc_price = float(client.rest_api.ticker_price(symbol="BTCUSDT").data().get("price", 0))
+                            asset_value_usdt = amount * price * btc_price
+                        elif quote_symbol == "ETH":
+                            eth_price = float(client.rest_api.ticker_price(symbol="ETHUSDT").data().get("price", 0))
+                            asset_value_usdt = amount * price * eth_price
+                        break
+                except (HTTPException, Error) as e:
+                    # Ignora erros de símbolo inválido (-1121) ou outros erros de API
+                    error_code = getattr(e, 'code', None)
+                    if error_code == -1121:  # Invalid symbol
+                        continue
+                    # Log para debug de outros erros
+                    logging.warning(f"Erro ao buscar preço de {symbol}: {e}")
+                    continue
+                except Exception as e:
+                    logging.warning(f"Erro inesperado ao buscar preço de {symbol}: {e}")
                     continue
 
         balances.append(

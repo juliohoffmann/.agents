@@ -89,18 +89,25 @@
                 <label>Binance Secret
                     <input type="password" id="api_secret" placeholder="API Secret" />
                 </label>
-                <label>Binance API Base URL
-                    <input type="text" id="binance_api_base" placeholder="https://api.binance.com" />
+                <label>Ambiente Binance
+                    <select id="binance_api_base">
+                        <option value="https://api.binance.com">Produção (Real)</option>
+                        <option value="https://testnet.binance.vision">Testnet (Demo)</option>
+                    </select>
                 </label>
                 <div class="actions">
                     <button type="button" id="save-config">Salvar Configuração</button>
-                    <button type="button" id="binance-test">Testar Binance</button>
+                    <button type="button" id="binance-test">Ver Conta Binance</button>
                     <button type="button" id="run-sim">Executar Simulação</button>
                 </div>
                 <div id="validation-message" class="validation-message"></div>
             </form>
             <div id="status"></div>
-            <div id="binance-result"></div>
+        </section>
+
+        <section class="card" id="binance-account-section" style="display: none;">
+            <h2>💰 Conta Binance</h2>
+            <div id="binance-account-info"></div>
         </section>
 
         <section class="card">
