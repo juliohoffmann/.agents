@@ -2,7 +2,7 @@
   "api_key": "Pe0ZruWYNPqplTWzmRA745bKsFOuqGB4FJoXCv5Swp3erZbm7LFZXaSfhDdQBCk9",
   "api_secret": "6eTu9Qkp0ihHCGY8mMnyouToKlcwVhP0Ky7qLspFXTaX1B3qyLU9PnLBbBzPhRfb",
   "binance_api_base": "https://testnet.binance.vision",
-  "symbol": "BNBUSDT",
+  "symbol": "ADAUSDT",
   "interval": "15m",
   "use_binance": true,
   "live_trading_enabled": false,

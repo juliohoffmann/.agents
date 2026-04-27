@@ -172,7 +172,14 @@ def get_binance_account_info(config: SimulatorConfig) -> Dict[str, object]:
             omit_zero_balances=False,
             recv_window=5000,
         )
+        # Converte o objeto GetAccountResponse para dict
         account = response.data()
+        if hasattr(account, 'as_dict'):
+            account = account.as_dict()
+        elif hasattr(account, 'to_dict'):
+            account = account.to_dict()
+        elif not isinstance(account, dict):
+            account = {"data": account}
     except Error as exc:
         raise HTTPException(status_code=400, detail=f"Erro Binance: {exc}")
     except Exception as exc:
@@ -196,15 +203,39 @@ def get_binance_account_info(config: SimulatorConfig) -> Dict[str, object]:
             for quote_symbol in ["USDT", "BUSD", "BTC", "ETH"]:
                 symbol = f"{asset}{quote_symbol}"
                 try:
-                    ticker = client.rest_api.ticker_price(symbol=symbol).data()
+                    ticker_resp = client.rest_api.ticker_price(symbol=symbol)
+                    ticker = ticker_resp.data()
+                    if hasattr(ticker, 'as_dict'):
+                        ticker = ticker.as_dict()
+                    elif hasattr(ticker, 'to_dict'):
+                        ticker = ticker.to_dict()
+                    elif not isinstance(ticker, dict):
+                        ticker = {"price": str(ticker)}
+                    
                     price = float(ticker.get("price", 0))
                     if quote_symbol in {"USDT", "BUSD"}:
                         asset_value_usdt = amount * price
                     elif quote_symbol == "BTC":
-                        btc_price = float(client.rest_api.ticker_price(symbol="BTCUSDT").data().get("price", 0))
+                        btc_resp = client.rest_api.ticker_price(symbol="BTCUSDT")
+                        btc_data = btc_resp.data()
+                        if hasattr(btc_data, 'as_dict'):
+                            btc_data = btc_data.as_dict()
+                        elif hasattr(btc_data, 'to_dict'):
+                            btc_data = btc_data.to_dict()
+                        elif not isinstance(btc_data, dict):
+                            btc_data = {"price": str(btc_data)}
+                        btc_price = float(btc_data.get("price", 0))
                         asset_value_usdt = amount * price * btc_price
                     elif quote_symbol == "ETH":
-                        eth_price = float(client.rest_api.ticker_price(symbol="ETHUSDT").data().get("price", 0))
+                        eth_resp = client.rest_api.ticker_price(symbol="ETHUSDT")
+                        eth_data = eth_resp.data()
+                        if hasattr(eth_data, 'as_dict'):
+                            eth_data = eth_data.as_dict()
+                        elif hasattr(eth_data, 'to_dict'):
+                            eth_data = eth_data.to_dict()
+                        elif not isinstance(eth_data, dict):
+                            eth_data = {"price": str(eth_data)}
+                        eth_price = float(eth_data.get("price", 0))
                         asset_value_usdt = amount * price * eth_price
                     break
                 except HTTPException:

@@ -28007,3 +28007,1591 @@
 2026-04-25 20:21:38,057 - INFO - Resumo Agente ddff7d37-b6f7-46c6-a7bf-85da4967beed - Saldo: 100.03, Trades: 100, Sucessos: 471, Falhas: 11
 2026-04-25 20:21:38,057 - INFO - Resumo Agente 84962a1e-5ce1-45a1-8200-a3454feda875 - Saldo: 100.03, Trades: 100, Sucessos: 471, Falhas: 11
 2026-04-25 20:21:38,057 - INFO - Simulação concluída.
+2026-04-26 20:51:31,091 - INFO - Binance test: use_binance=True, api_key_set=True, api_secret_set=True
+2026-04-26 20:51:32,075 - ERROR - Binance test unexpected error: 'GetAccountResponse' object has no attribute 'get'
+2026-04-26 20:53:33,702 - INFO - Binance test: use_binance=True, api_key_set=True, api_secret_set=True
+2026-04-26 20:53:34,648 - ERROR - Binance test unexpected error: 'GetAccountResponse' object has no attribute 'get'
+2026-04-26 20:53:41,394 - INFO - Iniciando simulação Verdent com 5 agentes
+2026-04-26 20:53:41,398 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.01, saldo=99.99, índice=196, retorno=-0.08%
+2026-04-26 20:53:41,401 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.01, saldo=99.99, índice=196, retorno=-0.08%
+2026-04-26 20:53:41,403 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.01, saldo=99.99, índice=196, retorno=-0.08%
+2026-04-26 20:53:41,405 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.01, saldo=99.99, índice=196, retorno=-0.08%
+2026-04-26 20:53:41,407 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.01, saldo=99.99, índice=196, retorno=-0.08%
+2026-04-26 20:53:41,407 - INFO - Rodada 1 concluída - agentes restantes: 5
+2026-04-26 20:53:41,409 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 125.
+2026-04-26 20:53:41,411 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 125.
+2026-04-26 20:53:41,412 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 125.
+2026-04-26 20:53:41,414 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 125.
+2026-04-26 20:53:41,416 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 125.
+2026-04-26 20:53:41,416 - INFO - Rodada 2 concluída - agentes restantes: 5
+2026-04-26 20:53:41,573 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 532 sucessos e 1 falhas simuladas.
+2026-04-26 20:53:41,574 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 39.75 e momentum -0.2972
+2026-04-26 20:53:41,574 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.01, saldo=100.00, índice=194, retorno=0.12%
+2026-04-26 20:53:41,731 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 532 sucessos e 1 falhas simuladas.
+2026-04-26 20:53:41,731 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.01, saldo=100.00, índice=194, retorno=0.12%
+2026-04-26 20:53:41,882 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 532 sucessos e 1 falhas simuladas.
+2026-04-26 20:53:41,882 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.01, saldo=100.00, índice=194, retorno=0.12%
+2026-04-26 20:53:42,050 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 532 sucessos e 1 falhas simuladas.
+2026-04-26 20:53:42,050 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.01, saldo=100.00, índice=194, retorno=0.12%
+2026-04-26 20:53:42,305 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 532 sucessos e 1 falhas simuladas.
+2026-04-26 20:53:42,305 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.01, saldo=100.00, índice=194, retorno=0.12%
+2026-04-26 20:53:42,305 - INFO - Rodada 3 concluída - agentes restantes: 5
+2026-04-26 20:53:42,319 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.01, saldo=100.00, índice=170, retorno=-0.08%
+2026-04-26 20:53:42,333 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.01, saldo=100.00, índice=170, retorno=-0.08%
+2026-04-26 20:53:42,345 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.01, saldo=100.00, índice=170, retorno=-0.08%
+2026-04-26 20:53:42,357 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.01, saldo=100.00, índice=170, retorno=-0.08%
+2026-04-26 20:53:42,369 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.01, saldo=100.00, índice=170, retorno=-0.08%
+2026-04-26 20:53:42,369 - INFO - Rodada 4 concluída - agentes restantes: 5
+2026-04-26 20:53:42,382 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.00, saldo=99.99, índice=26, retorno=-0.04%
+2026-04-26 20:53:42,395 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.00, saldo=99.99, índice=26, retorno=-0.04%
+2026-04-26 20:53:42,407 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.00, saldo=99.99, índice=26, retorno=-0.04%
+2026-04-26 20:53:42,419 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.00, saldo=99.99, índice=26, retorno=-0.04%
+2026-04-26 20:53:42,431 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.00, saldo=99.99, índice=26, retorno=-0.04%
+2026-04-26 20:53:42,431 - INFO - Rodada 5 concluída - agentes restantes: 5
+2026-04-26 20:53:42,595 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 533 sucessos e 3 falhas simuladas.
+2026-04-26 20:53:42,596 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 39.78 e momentum -0.2966
+2026-04-26 20:53:42,596 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.04, saldo=100.03, índice=31, retorno=0.36%
+2026-04-26 20:53:42,774 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 533 sucessos e 3 falhas simuladas.
+2026-04-26 20:53:42,774 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.04, saldo=100.03, índice=31, retorno=0.36%
+2026-04-26 20:53:42,946 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 533 sucessos e 3 falhas simuladas.
+2026-04-26 20:53:42,946 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.04, saldo=100.03, índice=31, retorno=0.36%
+2026-04-26 20:53:43,113 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 533 sucessos e 3 falhas simuladas.
+2026-04-26 20:53:43,113 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.04, saldo=100.03, índice=31, retorno=0.36%
+2026-04-26 20:53:43,276 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 533 sucessos e 3 falhas simuladas.
+2026-04-26 20:53:43,276 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.04, saldo=100.03, índice=31, retorno=0.36%
+2026-04-26 20:53:43,276 - INFO - Rodada 6 concluída - agentes restantes: 5
+2026-04-26 20:53:43,439 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 534 sucessos e 3 falhas simuladas.
+2026-04-26 20:53:43,440 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 39.78 e momentum -0.2961
+2026-04-26 20:53:43,440 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.02, saldo=100.04, índice=109, retorno=0.16%
+2026-04-26 20:53:43,612 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 534 sucessos e 3 falhas simuladas.
+2026-04-26 20:53:43,612 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.02, saldo=100.04, índice=109, retorno=0.16%
+2026-04-26 20:53:43,775 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 534 sucessos e 3 falhas simuladas.
+2026-04-26 20:53:43,775 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.02, saldo=100.04, índice=109, retorno=0.16%
+2026-04-26 20:53:43,935 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 534 sucessos e 3 falhas simuladas.
+2026-04-26 20:53:43,935 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.02, saldo=100.04, índice=109, retorno=0.16%
+2026-04-26 20:53:44,098 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 534 sucessos e 3 falhas simuladas.
+2026-04-26 20:53:44,098 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.02, saldo=100.04, índice=109, retorno=0.16%
+2026-04-26 20:53:44,098 - INFO - Rodada 7 concluída - agentes restantes: 5
+2026-04-26 20:53:44,259 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 535 sucessos e 3 falhas simuladas.
+2026-04-26 20:53:44,260 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 39.83 e momentum -0.2955
+2026-04-26 20:53:44,260 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.00, saldo=100.05, índice=128, retorno=0.04%
+2026-04-26 20:53:44,423 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 535 sucessos e 3 falhas simuladas.
+2026-04-26 20:53:44,423 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.00, saldo=100.05, índice=128, retorno=0.04%
+2026-04-26 20:53:44,585 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 535 sucessos e 3 falhas simuladas.
+2026-04-26 20:53:44,586 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.00, saldo=100.05, índice=128, retorno=0.04%
+2026-04-26 20:53:44,754 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 535 sucessos e 3 falhas simuladas.
+2026-04-26 20:53:44,754 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.00, saldo=100.05, índice=128, retorno=0.04%
+2026-04-26 20:53:44,931 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 535 sucessos e 3 falhas simuladas.
+2026-04-26 20:53:44,931 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.00, saldo=100.05, índice=128, retorno=0.04%
+2026-04-26 20:53:44,931 - INFO - Rodada 8 concluída - agentes restantes: 5
+2026-04-26 20:53:44,943 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.02, saldo=100.02, índice=27, retorno=-0.24%
+2026-04-26 20:53:44,956 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.02, saldo=100.02, índice=27, retorno=-0.24%
+2026-04-26 20:53:44,967 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.02, saldo=100.02, índice=27, retorno=-0.24%
+2026-04-26 20:53:44,978 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.02, saldo=100.02, índice=27, retorno=-0.24%
+2026-04-26 20:53:44,989 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.02, saldo=100.02, índice=27, retorno=-0.24%
+2026-04-26 20:53:44,989 - INFO - Rodada 9 concluída - agentes restantes: 5
+2026-04-26 20:53:45,152 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 536 sucessos e 4 falhas simuladas.
+2026-04-26 20:53:45,153 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 39.87 e momentum -0.2950
+2026-04-26 20:53:45,153 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.00, saldo=100.03, índice=134, retorno=0.04%
+2026-04-26 20:53:45,316 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 536 sucessos e 4 falhas simuladas.
+2026-04-26 20:53:45,316 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.00, saldo=100.03, índice=134, retorno=0.04%
+2026-04-26 20:53:45,481 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 536 sucessos e 4 falhas simuladas.
+2026-04-26 20:53:45,481 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.00, saldo=100.03, índice=134, retorno=0.04%
+2026-04-26 20:53:45,674 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 536 sucessos e 4 falhas simuladas.
+2026-04-26 20:53:45,674 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.00, saldo=100.03, índice=134, retorno=0.04%
+2026-04-26 20:53:45,848 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 536 sucessos e 4 falhas simuladas.
+2026-04-26 20:53:45,848 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.00, saldo=100.03, índice=134, retorno=0.04%
+2026-04-26 20:53:45,849 - INFO - Rodada 10 concluída - agentes restantes: 5
+2026-04-26 20:53:45,861 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.02, saldo=100.01, índice=20, retorno=-0.16%
+2026-04-26 20:53:45,873 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.02, saldo=100.01, índice=20, retorno=-0.16%
+2026-04-26 20:53:45,884 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.02, saldo=100.01, índice=20, retorno=-0.16%
+2026-04-26 20:53:45,896 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.02, saldo=100.01, índice=20, retorno=-0.16%
+2026-04-26 20:53:45,908 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.02, saldo=100.01, índice=20, retorno=-0.16%
+2026-04-26 20:53:45,908 - INFO - Rodada 11 concluída - agentes restantes: 5
+2026-04-26 20:53:46,083 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 537 sucessos e 5 falhas simuladas.
+2026-04-26 20:53:46,083 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 39.92 e momentum -0.2944
+2026-04-26 20:53:46,083 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.01, saldo=100.02, índice=101, retorno=0.12%
+2026-04-26 20:53:46,258 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 537 sucessos e 5 falhas simuladas.
+2026-04-26 20:53:46,258 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.01, saldo=100.02, índice=101, retorno=0.12%
+2026-04-26 20:53:46,430 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 537 sucessos e 5 falhas simuladas.
+2026-04-26 20:53:46,430 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.01, saldo=100.02, índice=101, retorno=0.12%
+2026-04-26 20:53:46,602 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 537 sucessos e 5 falhas simuladas.
+2026-04-26 20:53:46,602 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.01, saldo=100.02, índice=101, retorno=0.12%
+2026-04-26 20:53:46,777 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 537 sucessos e 5 falhas simuladas.
+2026-04-26 20:53:46,777 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.01, saldo=100.02, índice=101, retorno=0.12%
+2026-04-26 20:53:46,777 - INFO - Rodada 12 concluída - agentes restantes: 5
+2026-04-26 20:53:46,790 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.00, saldo=100.02, índice=151, retorno=-0.04%
+2026-04-26 20:53:46,802 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.00, saldo=100.02, índice=151, retorno=-0.04%
+2026-04-26 20:53:46,816 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.00, saldo=100.02, índice=151, retorno=-0.04%
+2026-04-26 20:53:46,830 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.00, saldo=100.02, índice=151, retorno=-0.04%
+2026-04-26 20:53:46,843 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.00, saldo=100.02, índice=151, retorno=-0.04%
+2026-04-26 20:53:46,843 - INFO - Rodada 13 concluída - agentes restantes: 5
+2026-04-26 20:53:46,857 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 27.
+2026-04-26 20:53:46,874 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 27.
+2026-04-26 20:53:46,888 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 27.
+2026-04-26 20:53:46,901 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 27.
+2026-04-26 20:53:46,914 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 27.
+2026-04-26 20:53:46,915 - INFO - Rodada 14 concluída - agentes restantes: 5
+2026-04-26 20:53:47,114 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 538 sucessos e 6 falhas simuladas.
+2026-04-26 20:53:47,115 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 39.92 e momentum -0.2939
+2026-04-26 20:53:47,115 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.01, saldo=100.03, índice=89, retorno=0.08%
+2026-04-26 20:53:47,288 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 538 sucessos e 6 falhas simuladas.
+2026-04-26 20:53:47,288 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.01, saldo=100.03, índice=89, retorno=0.08%
+2026-04-26 20:53:47,466 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 538 sucessos e 6 falhas simuladas.
+2026-04-26 20:53:47,466 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.01, saldo=100.03, índice=89, retorno=0.08%
+2026-04-26 20:53:47,653 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 538 sucessos e 6 falhas simuladas.
+2026-04-26 20:53:47,653 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.01, saldo=100.03, índice=89, retorno=0.08%
+2026-04-26 20:53:47,855 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 538 sucessos e 6 falhas simuladas.
+2026-04-26 20:53:47,855 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.01, saldo=100.03, índice=89, retorno=0.08%
+2026-04-26 20:53:47,855 - INFO - Rodada 15 concluída - agentes restantes: 5
+2026-04-26 20:53:47,870 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.01, saldo=100.02, índice=71, retorno=-0.08%
+2026-04-26 20:53:47,883 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.01, saldo=100.02, índice=71, retorno=-0.08%
+2026-04-26 20:53:47,896 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.01, saldo=100.02, índice=71, retorno=-0.08%
+2026-04-26 20:53:47,908 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.01, saldo=100.02, índice=71, retorno=-0.08%
+2026-04-26 20:53:47,920 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.01, saldo=100.02, índice=71, retorno=-0.08%
+2026-04-26 20:53:47,920 - INFO - Rodada 16 concluída - agentes restantes: 5
+2026-04-26 20:53:47,932 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.01, saldo=100.01, índice=60, retorno=-0.12%
+2026-04-26 20:53:47,944 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.01, saldo=100.01, índice=60, retorno=-0.12%
+2026-04-26 20:53:47,955 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.01, saldo=100.01, índice=60, retorno=-0.12%
+2026-04-26 20:53:47,966 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.01, saldo=100.01, índice=60, retorno=-0.12%
+2026-04-26 20:53:47,978 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.01, saldo=100.01, índice=60, retorno=-0.12%
+2026-04-26 20:53:47,978 - INFO - Rodada 17 concluída - agentes restantes: 5
+2026-04-26 20:53:47,989 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 175.
+2026-04-26 20:53:48,000 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 175.
+2026-04-26 20:53:48,012 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 175.
+2026-04-26 20:53:48,024 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 175.
+2026-04-26 20:53:48,036 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 175.
+2026-04-26 20:53:48,036 - INFO - Rodada 18 concluída - agentes restantes: 5
+2026-04-26 20:53:48,047 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=0.00, saldo=100.01, índice=78, retorno=0.00%
+2026-04-26 20:53:48,058 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=0.00, saldo=100.01, índice=78, retorno=0.00%
+2026-04-26 20:53:48,069 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=0.00, saldo=100.01, índice=78, retorno=0.00%
+2026-04-26 20:53:48,080 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=0.00, saldo=100.01, índice=78, retorno=0.00%
+2026-04-26 20:53:48,091 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=0.00, saldo=100.01, índice=78, retorno=0.00%
+2026-04-26 20:53:48,091 - INFO - Rodada 19 concluída - agentes restantes: 5
+2026-04-26 20:53:48,102 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.02, saldo=99.99, índice=93, retorno=-0.16%
+2026-04-26 20:53:48,114 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.02, saldo=99.99, índice=93, retorno=-0.16%
+2026-04-26 20:53:48,126 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.02, saldo=99.99, índice=93, retorno=-0.16%
+2026-04-26 20:53:48,137 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.02, saldo=99.99, índice=93, retorno=-0.16%
+2026-04-26 20:53:48,149 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.02, saldo=99.99, índice=93, retorno=-0.16%
+2026-04-26 20:53:48,149 - INFO - Rodada 20 concluída - agentes restantes: 5
+2026-04-26 20:53:48,160 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 56.
+2026-04-26 20:53:48,171 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.00, saldo=99.99, índice=56, retorno=-0.04%
+2026-04-26 20:53:48,182 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.00, saldo=99.99, índice=56, retorno=-0.04%
+2026-04-26 20:53:48,193 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.00, saldo=99.99, índice=56, retorno=-0.04%
+2026-04-26 20:53:48,204 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.00, saldo=99.99, índice=56, retorno=-0.04%
+2026-04-26 20:53:48,204 - INFO - Rodada 21 concluída - agentes restantes: 5
+2026-04-26 20:53:48,369 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 539 sucessos e 10 falhas simuladas.
+2026-04-26 20:53:48,369 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 39.97 e momentum -0.2933
+2026-04-26 20:53:48,370 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.02, saldo=100.01, índice=23, retorno=0.16%
+2026-04-26 20:53:48,534 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 539 sucessos e 11 falhas simuladas.
+2026-04-26 20:53:48,534 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.02, saldo=100.00, índice=23, retorno=0.16%
+2026-04-26 20:53:48,701 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 539 sucessos e 11 falhas simuladas.
+2026-04-26 20:53:48,701 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.02, saldo=100.00, índice=23, retorno=0.16%
+2026-04-26 20:53:48,865 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 539 sucessos e 11 falhas simuladas.
+2026-04-26 20:53:48,866 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.02, saldo=100.00, índice=23, retorno=0.16%
+2026-04-26 20:53:49,029 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 539 sucessos e 11 falhas simuladas.
+2026-04-26 20:53:49,029 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.02, saldo=100.00, índice=23, retorno=0.16%
+2026-04-26 20:53:49,029 - INFO - Rodada 22 concluída - agentes restantes: 5
+2026-04-26 20:53:49,041 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.01, saldo=100.00, índice=146, retorno=-0.08%
+2026-04-26 20:53:49,052 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.01, saldo=100.00, índice=146, retorno=-0.08%
+2026-04-26 20:53:49,064 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.01, saldo=100.00, índice=146, retorno=-0.08%
+2026-04-26 20:53:49,074 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.01, saldo=100.00, índice=146, retorno=-0.08%
+2026-04-26 20:53:49,087 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.01, saldo=100.00, índice=146, retorno=-0.08%
+2026-04-26 20:53:49,087 - INFO - Rodada 23 concluída - agentes restantes: 5
+2026-04-26 20:53:49,099 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 195.
+2026-04-26 20:53:49,112 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 195.
+2026-04-26 20:53:49,124 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 195.
+2026-04-26 20:53:49,135 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 195.
+2026-04-26 20:53:49,146 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 195.
+2026-04-26 20:53:49,146 - INFO - Rodada 24 concluída - agentes restantes: 5
+2026-04-26 20:53:49,311 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 540 sucessos e 11 falhas simuladas.
+2026-04-26 20:53:49,311 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 40.01 e momentum -0.2928
+2026-04-26 20:53:49,312 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.00, saldo=100.00, índice=97, retorno=0.04%
+2026-04-26 20:53:49,323 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 97.
+2026-04-26 20:53:49,334 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 97.
+2026-04-26 20:53:49,346 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 97.
+2026-04-26 20:53:49,356 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 97.
+2026-04-26 20:53:49,356 - INFO - Rodada 25 concluída - agentes restantes: 5
+2026-04-26 20:53:49,367 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.02, saldo=99.99, índice=117, retorno=-0.16%
+2026-04-26 20:53:49,378 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.02, saldo=99.98, índice=117, retorno=-0.16%
+2026-04-26 20:53:49,389 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.02, saldo=99.98, índice=117, retorno=-0.16%
+2026-04-26 20:53:49,400 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.02, saldo=99.98, índice=117, retorno=-0.16%
+2026-04-26 20:53:49,410 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.02, saldo=99.98, índice=117, retorno=-0.16%
+2026-04-26 20:53:49,411 - INFO - Rodada 26 concluída - agentes restantes: 5
+2026-04-26 20:53:49,421 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 154.
+2026-04-26 20:53:49,432 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 154.
+2026-04-26 20:53:49,444 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 154.
+2026-04-26 20:53:49,456 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 154.
+2026-04-26 20:53:49,467 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 154.
+2026-04-26 20:53:49,467 - INFO - Rodada 27 concluída - agentes restantes: 5
+2026-04-26 20:53:49,478 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=0.00, saldo=99.99, índice=114, retorno=0.00%
+2026-04-26 20:53:49,489 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=0.00, saldo=99.98, índice=114, retorno=0.00%
+2026-04-26 20:53:49,500 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=0.00, saldo=99.98, índice=114, retorno=0.00%
+2026-04-26 20:53:49,511 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=0.00, saldo=99.98, índice=114, retorno=0.00%
+2026-04-26 20:53:49,522 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=0.00, saldo=99.98, índice=114, retorno=0.00%
+2026-04-26 20:53:49,522 - INFO - Rodada 28 concluída - agentes restantes: 5
+2026-04-26 20:53:49,533 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.00, saldo=99.98, índice=100, retorno=-0.04%
+2026-04-26 20:53:49,544 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.00, saldo=99.98, índice=100, retorno=-0.04%
+2026-04-26 20:53:49,556 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.00, saldo=99.98, índice=100, retorno=-0.04%
+2026-04-26 20:53:49,568 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.00, saldo=99.98, índice=100, retorno=-0.04%
+2026-04-26 20:53:49,580 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.00, saldo=99.98, índice=100, retorno=-0.04%
+2026-04-26 20:53:49,580 - INFO - Rodada 29 concluída - agentes restantes: 5
+2026-04-26 20:53:49,593 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.01, saldo=99.98, índice=170, retorno=-0.08%
+2026-04-26 20:53:49,605 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 170.
+2026-04-26 20:53:49,617 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 170.
+2026-04-26 20:53:49,630 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 170.
+2026-04-26 20:53:49,644 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 170.
+2026-04-26 20:53:49,645 - INFO - Rodada 30 concluída - agentes restantes: 5
+2026-04-26 20:53:49,843 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 541 sucessos e 15 falhas simuladas.
+2026-04-26 20:53:49,844 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 40.01 e momentum -0.2922
+2026-04-26 20:53:49,844 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.02, saldo=99.99, índice=109, retorno=0.16%
+2026-04-26 20:53:50,018 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 540 sucessos e 15 falhas simuladas.
+2026-04-26 20:53:50,018 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.02, saldo=99.99, índice=109, retorno=0.16%
+2026-04-26 20:53:50,184 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 540 sucessos e 15 falhas simuladas.
+2026-04-26 20:53:50,184 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.02, saldo=99.99, índice=109, retorno=0.16%
+2026-04-26 20:53:50,350 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 540 sucessos e 15 falhas simuladas.
+2026-04-26 20:53:50,351 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.02, saldo=99.99, índice=109, retorno=0.16%
+2026-04-26 20:53:50,515 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 540 sucessos e 15 falhas simuladas.
+2026-04-26 20:53:50,516 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.02, saldo=99.99, índice=109, retorno=0.16%
+2026-04-26 20:53:50,516 - INFO - Rodada 31 concluída - agentes restantes: 5
+2026-04-26 20:53:50,528 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.00, saldo=99.99, índice=113, retorno=-0.04%
+2026-04-26 20:53:50,539 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 113.
+2026-04-26 20:53:50,550 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 113.
+2026-04-26 20:53:50,560 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 113.
+2026-04-26 20:53:50,571 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 113.
+2026-04-26 20:53:50,571 - INFO - Rodada 32 concluída - agentes restantes: 5
+2026-04-26 20:53:50,582 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.00, saldo=99.98, índice=34, retorno=-0.04%
+2026-04-26 20:53:50,593 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.00, saldo=99.99, índice=34, retorno=-0.04%
+2026-04-26 20:53:50,604 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.00, saldo=99.99, índice=34, retorno=-0.04%
+2026-04-26 20:53:50,614 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.00, saldo=99.99, índice=34, retorno=-0.04%
+2026-04-26 20:53:50,626 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.00, saldo=99.99, índice=34, retorno=-0.04%
+2026-04-26 20:53:50,626 - INFO - Rodada 33 concluída - agentes restantes: 5
+2026-04-26 20:53:50,866 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 542 sucessos e 17 falhas simuladas.
+2026-04-26 20:53:50,867 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 40.05 e momentum -0.2917
+2026-04-26 20:53:50,867 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.01, saldo=100.00, índice=138, retorno=0.12%
+2026-04-26 20:53:51,034 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 541 sucessos e 16 falhas simuladas.
+2026-04-26 20:53:51,034 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.01, saldo=100.00, índice=138, retorno=0.12%
+2026-04-26 20:53:51,202 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 541 sucessos e 16 falhas simuladas.
+2026-04-26 20:53:51,202 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.01, saldo=100.00, índice=138, retorno=0.12%
+2026-04-26 20:53:51,368 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 541 sucessos e 16 falhas simuladas.
+2026-04-26 20:53:51,368 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.01, saldo=100.00, índice=138, retorno=0.12%
+2026-04-26 20:53:51,534 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 541 sucessos e 16 falhas simuladas.
+2026-04-26 20:53:51,535 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.01, saldo=100.00, índice=138, retorno=0.12%
+2026-04-26 20:53:51,535 - INFO - Rodada 34 concluída - agentes restantes: 5
+2026-04-26 20:53:51,546 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 46.
+2026-04-26 20:53:51,557 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 46.
+2026-04-26 20:53:51,568 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 46.
+2026-04-26 20:53:51,579 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 46.
+2026-04-26 20:53:51,590 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 46.
+2026-04-26 20:53:51,590 - INFO - Rodada 35 concluída - agentes restantes: 5
+2026-04-26 20:53:51,766 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 543 sucessos e 17 falhas simuladas.
+2026-04-26 20:53:51,767 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 40.07 e momentum -0.2912
+2026-04-26 20:53:51,767 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.01, saldo=100.00, índice=40, retorno=0.08%
+2026-04-26 20:53:51,941 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 542 sucessos e 16 falhas simuladas.
+2026-04-26 20:53:51,942 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.01, saldo=100.01, índice=40, retorno=0.08%
+2026-04-26 20:53:52,114 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 542 sucessos e 16 falhas simuladas.
+2026-04-26 20:53:52,114 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.01, saldo=100.01, índice=40, retorno=0.08%
+2026-04-26 20:53:52,281 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 542 sucessos e 16 falhas simuladas.
+2026-04-26 20:53:52,281 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.01, saldo=100.01, índice=40, retorno=0.08%
+2026-04-26 20:53:52,447 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 542 sucessos e 16 falhas simuladas.
+2026-04-26 20:53:52,447 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.01, saldo=100.01, índice=40, retorno=0.08%
+2026-04-26 20:53:52,447 - INFO - Rodada 36 concluída - agentes restantes: 5
+2026-04-26 20:53:52,458 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 161.
+2026-04-26 20:53:52,469 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 161.
+2026-04-26 20:53:52,480 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 161.
+2026-04-26 20:53:52,491 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 161.
+2026-04-26 20:53:52,502 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 161.
+2026-04-26 20:53:52,502 - INFO - Rodada 37 concluída - agentes restantes: 5
+2026-04-26 20:53:52,514 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=0.00, saldo=100.00, índice=126, retorno=0.00%
+2026-04-26 20:53:52,524 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 126.
+2026-04-26 20:53:52,535 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 126.
+2026-04-26 20:53:52,546 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 126.
+2026-04-26 20:53:52,557 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 126.
+2026-04-26 20:53:52,557 - INFO - Rodada 38 concluída - agentes restantes: 5
+2026-04-26 20:53:52,568 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 193.
+2026-04-26 20:53:52,579 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 193.
+2026-04-26 20:53:52,590 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 193.
+2026-04-26 20:53:52,600 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 193.
+2026-04-26 20:53:52,612 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 193.
+2026-04-26 20:53:52,612 - INFO - Rodada 39 concluída - agentes restantes: 5
+2026-04-26 20:53:52,623 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 99.
+2026-04-26 20:53:52,634 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 99.
+2026-04-26 20:53:52,645 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 99.
+2026-04-26 20:53:52,656 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 99.
+2026-04-26 20:53:52,668 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 99.
+2026-04-26 20:53:52,668 - INFO - Rodada 40 concluída - agentes restantes: 5
+2026-04-26 20:53:52,679 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.00, saldo=100.00, índice=33, retorno=-0.04%
+2026-04-26 20:53:52,690 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.00, saldo=100.00, índice=33, retorno=-0.04%
+2026-04-26 20:53:52,702 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.00, saldo=100.00, índice=33, retorno=-0.04%
+2026-04-26 20:53:52,714 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.00, saldo=100.00, índice=33, retorno=-0.04%
+2026-04-26 20:53:52,726 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.00, saldo=100.00, índice=33, retorno=-0.04%
+2026-04-26 20:53:52,727 - INFO - Rodada 41 concluída - agentes restantes: 5
+2026-04-26 20:53:52,744 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.00, saldo=100.00, índice=65, retorno=-0.04%
+2026-04-26 20:53:52,761 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.00, saldo=100.00, índice=65, retorno=-0.04%
+2026-04-26 20:53:52,773 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.00, saldo=100.00, índice=65, retorno=-0.04%
+2026-04-26 20:53:52,785 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.00, saldo=100.00, índice=65, retorno=-0.04%
+2026-04-26 20:53:52,798 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.00, saldo=100.00, índice=65, retorno=-0.04%
+2026-04-26 20:53:52,798 - INFO - Rodada 42 concluída - agentes restantes: 5
+2026-04-26 20:53:52,985 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 544 sucessos e 20 falhas simuladas.
+2026-04-26 20:53:52,986 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 40.07 e momentum -0.2906
+2026-04-26 20:53:52,986 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.01, saldo=100.01, índice=95, retorno=0.12%
+2026-04-26 20:53:53,172 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 543 sucessos e 18 falhas simuladas.
+2026-04-26 20:53:53,173 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.01, saldo=100.01, índice=95, retorno=0.12%
+2026-04-26 20:53:53,358 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 543 sucessos e 18 falhas simuladas.
+2026-04-26 20:53:53,359 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.01, saldo=100.01, índice=95, retorno=0.12%
+2026-04-26 20:53:53,541 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 543 sucessos e 18 falhas simuladas.
+2026-04-26 20:53:53,541 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.01, saldo=100.01, índice=95, retorno=0.12%
+2026-04-26 20:53:53,753 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 543 sucessos e 18 falhas simuladas.
+2026-04-26 20:53:53,753 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.01, saldo=100.01, índice=95, retorno=0.12%
+2026-04-26 20:53:53,753 - INFO - Rodada 43 concluída - agentes restantes: 5
+2026-04-26 20:53:53,770 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 50.
+2026-04-26 20:53:53,785 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 50.
+2026-04-26 20:53:53,797 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 50.
+2026-04-26 20:53:53,810 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 50.
+2026-04-26 20:53:53,821 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 50.
+2026-04-26 20:53:53,821 - INFO - Rodada 44 concluída - agentes restantes: 5
+2026-04-26 20:53:53,833 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 79.
+2026-04-26 20:53:53,845 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=0.00, saldo=100.01, índice=79, retorno=0.00%
+2026-04-26 20:53:53,857 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=0.00, saldo=100.01, índice=79, retorno=0.00%
+2026-04-26 20:53:53,872 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=0.00, saldo=100.01, índice=79, retorno=0.00%
+2026-04-26 20:53:53,884 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=0.00, saldo=100.01, índice=79, retorno=0.00%
+2026-04-26 20:53:53,884 - INFO - Rodada 45 concluída - agentes restantes: 5
+2026-04-26 20:53:53,895 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 175.
+2026-04-26 20:53:53,907 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 175.
+2026-04-26 20:53:53,917 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 175.
+2026-04-26 20:53:53,929 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 175.
+2026-04-26 20:53:53,940 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 175.
+2026-04-26 20:53:53,940 - INFO - Rodada 46 concluída - agentes restantes: 5
+2026-04-26 20:53:53,951 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 197.
+2026-04-26 20:53:53,962 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 197.
+2026-04-26 20:53:53,974 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 197.
+2026-04-26 20:53:53,985 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 197.
+2026-04-26 20:53:53,996 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 197.
+2026-04-26 20:53:53,997 - INFO - Rodada 47 concluída - agentes restantes: 5
+2026-04-26 20:53:54,009 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 45.
+2026-04-26 20:53:54,196 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 544 sucessos e 19 falhas simuladas.
+2026-04-26 20:53:54,196 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.04, saldo=100.05, índice=45, retorno=0.40%
+2026-04-26 20:53:54,377 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 544 sucessos e 19 falhas simuladas.
+2026-04-26 20:53:54,377 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.04, saldo=100.05, índice=45, retorno=0.40%
+2026-04-26 20:53:54,544 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 544 sucessos e 19 falhas simuladas.
+2026-04-26 20:53:54,544 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.04, saldo=100.05, índice=45, retorno=0.40%
+2026-04-26 20:53:54,720 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 544 sucessos e 19 falhas simuladas.
+2026-04-26 20:53:54,720 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.04, saldo=100.05, índice=45, retorno=0.40%
+2026-04-26 20:53:54,720 - INFO - Rodada 48 concluída - agentes restantes: 5
+2026-04-26 20:53:54,732 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 183.
+2026-04-26 20:53:54,743 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 183.
+2026-04-26 20:53:54,754 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 183.
+2026-04-26 20:53:54,766 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 183.
+2026-04-26 20:53:54,777 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 183.
+2026-04-26 20:53:54,777 - INFO - Rodada 49 concluída - agentes restantes: 5
+2026-04-26 20:53:54,788 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 167.
+2026-04-26 20:53:54,799 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 167.
+2026-04-26 20:53:54,810 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 167.
+2026-04-26 20:53:54,821 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 167.
+2026-04-26 20:53:54,832 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 167.
+2026-04-26 20:53:54,832 - INFO - Rodada 50 concluída - agentes restantes: 5
+2026-04-26 20:53:54,844 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 97.
+2026-04-26 20:53:54,855 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 97.
+2026-04-26 20:53:54,866 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 97.
+2026-04-26 20:53:54,877 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 97.
+2026-04-26 20:53:54,888 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 97.
+2026-04-26 20:53:54,888 - INFO - Rodada 51 concluída - agentes restantes: 5
+2026-04-26 20:53:54,899 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 20.
+2026-04-26 20:53:54,910 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 20.
+2026-04-26 20:53:54,921 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 20.
+2026-04-26 20:53:54,932 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 20.
+2026-04-26 20:53:54,932 - INFO - Rodada 52 concluída - agentes restantes: 5
+2026-04-26 20:53:54,943 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 45.
+2026-04-26 20:53:55,112 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 545 sucessos e 19 falhas simuladas.
+2026-04-26 20:53:55,112 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.04, saldo=100.09, índice=45, retorno=0.40%
+2026-04-26 20:53:55,280 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 545 sucessos e 19 falhas simuladas.
+2026-04-26 20:53:55,281 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.04, saldo=100.09, índice=45, retorno=0.40%
+2026-04-26 20:53:55,447 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 545 sucessos e 19 falhas simuladas.
+2026-04-26 20:53:55,447 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.04, saldo=100.09, índice=45, retorno=0.40%
+2026-04-26 20:53:55,616 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 545 sucessos e 19 falhas simuladas.
+2026-04-26 20:53:55,616 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.04, saldo=100.09, índice=45, retorno=0.40%
+2026-04-26 20:53:55,616 - INFO - Rodada 53 concluída - agentes restantes: 5
+2026-04-26 20:53:55,628 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 177.
+2026-04-26 20:53:55,639 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 177.
+2026-04-26 20:53:55,650 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 177.
+2026-04-26 20:53:55,662 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 177.
+2026-04-26 20:53:55,673 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 177.
+2026-04-26 20:53:55,673 - INFO - Rodada 54 concluída - agentes restantes: 5
+2026-04-26 20:53:55,685 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 43.
+2026-04-26 20:53:55,859 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 546 sucessos e 19 falhas simuladas.
+2026-04-26 20:53:55,859 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.01, saldo=100.10, índice=43, retorno=0.08%
+2026-04-26 20:53:56,034 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 546 sucessos e 19 falhas simuladas.
+2026-04-26 20:53:56,034 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.01, saldo=100.10, índice=43, retorno=0.08%
+2026-04-26 20:53:56,216 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 546 sucessos e 19 falhas simuladas.
+2026-04-26 20:53:56,216 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.01, saldo=100.10, índice=43, retorno=0.08%
+2026-04-26 20:53:56,392 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 546 sucessos e 19 falhas simuladas.
+2026-04-26 20:53:56,393 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.01, saldo=100.10, índice=43, retorno=0.08%
+2026-04-26 20:53:56,393 - INFO - Rodada 55 concluída - agentes restantes: 5
+2026-04-26 20:53:56,404 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.01, saldo=100.00, índice=42, retorno=-0.08%
+2026-04-26 20:53:56,416 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 42.
+2026-04-26 20:53:56,428 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 42.
+2026-04-26 20:53:56,439 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 42.
+2026-04-26 20:53:56,451 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 42.
+2026-04-26 20:53:56,451 - INFO - Rodada 56 concluída - agentes restantes: 5
+2026-04-26 20:53:56,462 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 126.
+2026-04-26 20:53:56,474 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 126.
+2026-04-26 20:53:56,485 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 126.
+2026-04-26 20:53:56,497 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 126.
+2026-04-26 20:53:56,508 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 126.
+2026-04-26 20:53:56,508 - INFO - Rodada 57 concluída - agentes restantes: 5
+2026-04-26 20:53:56,519 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 117.
+2026-04-26 20:53:56,531 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 117.
+2026-04-26 20:53:56,544 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 117.
+2026-04-26 20:53:56,556 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 117.
+2026-04-26 20:53:56,567 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 117.
+2026-04-26 20:53:56,567 - INFO - Rodada 58 concluída - agentes restantes: 5
+2026-04-26 20:53:56,579 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.02, saldo=99.98, índice=104, retorno=-0.16%
+2026-04-26 20:53:56,591 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.02, saldo=100.08, índice=104, retorno=-0.16%
+2026-04-26 20:53:56,602 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.02, saldo=100.08, índice=104, retorno=-0.16%
+2026-04-26 20:53:56,614 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.02, saldo=100.08, índice=104, retorno=-0.16%
+2026-04-26 20:53:56,625 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.02, saldo=100.08, índice=104, retorno=-0.16%
+2026-04-26 20:53:56,625 - INFO - Rodada 59 concluída - agentes restantes: 5
+2026-04-26 20:53:56,637 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 127.
+2026-04-26 20:53:56,648 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 127.
+2026-04-26 20:53:56,660 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 127.
+2026-04-26 20:53:56,672 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 127.
+2026-04-26 20:53:56,684 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 127.
+2026-04-26 20:53:56,684 - INFO - Rodada 60 concluída - agentes restantes: 5
+2026-04-26 20:53:56,867 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 545 sucessos e 22 falhas simuladas.
+2026-04-26 20:53:56,868 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 40.06 e momentum -0.2901
+2026-04-26 20:53:56,868 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.02, saldo=100.00, índice=87, retorno=0.20%
+2026-04-26 20:53:57,041 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 547 sucessos e 20 falhas simuladas.
+2026-04-26 20:53:57,041 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.02, saldo=100.10, índice=87, retorno=0.20%
+2026-04-26 20:53:57,211 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 547 sucessos e 20 falhas simuladas.
+2026-04-26 20:53:57,211 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.02, saldo=100.10, índice=87, retorno=0.20%
+2026-04-26 20:53:57,383 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 547 sucessos e 20 falhas simuladas.
+2026-04-26 20:53:57,383 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.02, saldo=100.10, índice=87, retorno=0.20%
+2026-04-26 20:53:57,553 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 547 sucessos e 20 falhas simuladas.
+2026-04-26 20:53:57,554 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.02, saldo=100.10, índice=87, retorno=0.20%
+2026-04-26 20:53:57,554 - INFO - Rodada 61 concluída - agentes restantes: 5
+2026-04-26 20:53:57,722 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 546 sucessos e 22 falhas simuladas.
+2026-04-26 20:53:57,723 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 40.06 e momentum -0.2896
+2026-04-26 20:53:57,723 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.05, saldo=100.06, índice=190, retorno=0.52%
+2026-04-26 20:53:57,734 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 190.
+2026-04-26 20:53:57,745 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 190.
+2026-04-26 20:53:57,757 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 190.
+2026-04-26 20:53:57,768 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 190.
+2026-04-26 20:53:57,769 - INFO - Rodada 62 concluída - agentes restantes: 5
+2026-04-26 20:53:57,779 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 97.
+2026-04-26 20:53:57,790 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 97.
+2026-04-26 20:53:57,801 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 97.
+2026-04-26 20:53:57,812 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 97.
+2026-04-26 20:53:57,822 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 97.
+2026-04-26 20:53:57,823 - INFO - Rodada 63 concluída - agentes restantes: 5
+2026-04-26 20:53:57,834 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 117.
+2026-04-26 20:53:57,845 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 117.
+2026-04-26 20:53:57,856 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 117.
+2026-04-26 20:53:57,868 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 117.
+2026-04-26 20:53:57,880 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 117.
+2026-04-26 20:53:57,880 - INFO - Rodada 64 concluída - agentes restantes: 5
+2026-04-26 20:53:57,892 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.01, saldo=100.04, índice=135, retorno=-0.12%
+2026-04-26 20:53:57,903 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.01, saldo=100.09, índice=135, retorno=-0.12%
+2026-04-26 20:53:57,914 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.01, saldo=100.09, índice=135, retorno=-0.12%
+2026-04-26 20:53:57,925 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.01, saldo=100.09, índice=135, retorno=-0.12%
+2026-04-26 20:53:57,936 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.01, saldo=100.09, índice=135, retorno=-0.12%
+2026-04-26 20:53:57,936 - INFO - Rodada 65 concluída - agentes restantes: 5
+2026-04-26 20:53:57,947 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 41.
+2026-04-26 20:53:58,158 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 548 sucessos e 21 falhas simuladas.
+2026-04-26 20:53:58,158 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.02, saldo=100.11, índice=41, retorno=0.20%
+2026-04-26 20:53:58,352 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 548 sucessos e 21 falhas simuladas.
+2026-04-26 20:53:58,352 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.02, saldo=100.11, índice=41, retorno=0.20%
+2026-04-26 20:53:58,535 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 548 sucessos e 21 falhas simuladas.
+2026-04-26 20:53:58,535 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.02, saldo=100.11, índice=41, retorno=0.20%
+2026-04-26 20:53:58,714 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 548 sucessos e 21 falhas simuladas.
+2026-04-26 20:53:58,714 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.02, saldo=100.11, índice=41, retorno=0.20%
+2026-04-26 20:53:58,714 - INFO - Rodada 66 concluída - agentes restantes: 5
+2026-04-26 20:53:58,725 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 169.
+2026-04-26 20:53:58,736 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 169.
+2026-04-26 20:53:58,748 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 169.
+2026-04-26 20:53:58,758 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 169.
+2026-04-26 20:53:58,769 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 169.
+2026-04-26 20:53:58,770 - INFO - Rodada 67 concluída - agentes restantes: 5
+2026-04-26 20:53:58,781 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 169.
+2026-04-26 20:53:58,792 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 169.
+2026-04-26 20:53:58,803 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 169.
+2026-04-26 20:53:58,814 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 169.
+2026-04-26 20:53:58,825 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 169.
+2026-04-26 20:53:58,825 - INFO - Rodada 68 concluída - agentes restantes: 5
+2026-04-26 20:53:58,836 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 150.
+2026-04-26 20:53:58,848 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 150.
+2026-04-26 20:53:58,860 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 150.
+2026-04-26 20:53:58,871 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 150.
+2026-04-26 20:53:58,882 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 150.
+2026-04-26 20:53:58,882 - INFO - Rodada 69 concluída - agentes restantes: 5
+2026-04-26 20:53:58,894 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 151.
+2026-04-26 20:53:58,906 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 151.
+2026-04-26 20:53:58,917 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 151.
+2026-04-26 20:53:58,928 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 151.
+2026-04-26 20:53:58,940 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 151.
+2026-04-26 20:53:58,940 - INFO - Rodada 70 concluída - agentes restantes: 5
+2026-04-26 20:53:58,953 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 165.
+2026-04-26 20:53:58,966 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 165.
+2026-04-26 20:53:58,978 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 165.
+2026-04-26 20:53:58,990 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 165.
+2026-04-26 20:53:59,002 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 165.
+2026-04-26 20:53:59,002 - INFO - Rodada 71 concluída - agentes restantes: 5
+2026-04-26 20:53:59,177 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 547 sucessos e 23 falhas simuladas.
+2026-04-26 20:53:59,178 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 40.10 e momentum -0.2890
+2026-04-26 20:53:59,178 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.02, saldo=100.06, índice=129, retorno=0.16%
+2026-04-26 20:53:59,354 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 549 sucessos e 21 falhas simuladas.
+2026-04-26 20:53:59,355 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.02, saldo=100.13, índice=129, retorno=0.16%
+2026-04-26 20:53:59,528 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 549 sucessos e 21 falhas simuladas.
+2026-04-26 20:53:59,528 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.02, saldo=100.13, índice=129, retorno=0.16%
+2026-04-26 20:53:59,727 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 549 sucessos e 21 falhas simuladas.
+2026-04-26 20:53:59,727 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.02, saldo=100.13, índice=129, retorno=0.16%
+2026-04-26 20:53:59,898 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 549 sucessos e 21 falhas simuladas.
+2026-04-26 20:53:59,899 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.02, saldo=100.13, índice=129, retorno=0.16%
+2026-04-26 20:53:59,899 - INFO - Rodada 72 concluída - agentes restantes: 5
+2026-04-26 20:53:59,910 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 48.
+2026-04-26 20:53:59,921 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 48.
+2026-04-26 20:53:59,932 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 48.
+2026-04-26 20:53:59,943 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 48.
+2026-04-26 20:53:59,955 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 48.
+2026-04-26 20:53:59,955 - INFO - Rodada 73 concluída - agentes restantes: 5
+2026-04-26 20:54:00,129 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 548 sucessos e 23 falhas simuladas.
+2026-04-26 20:54:00,129 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 40.08 e momentum -0.2885
+2026-04-26 20:54:00,129 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.00, saldo=100.06, índice=72, retorno=0.04%
+2026-04-26 20:54:00,298 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 550 sucessos e 21 falhas simuladas.
+2026-04-26 20:54:00,298 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.00, saldo=100.13, índice=72, retorno=0.04%
+2026-04-26 20:54:00,477 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 550 sucessos e 21 falhas simuladas.
+2026-04-26 20:54:00,477 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.00, saldo=100.13, índice=72, retorno=0.04%
+2026-04-26 20:54:00,651 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 550 sucessos e 21 falhas simuladas.
+2026-04-26 20:54:00,651 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.00, saldo=100.13, índice=72, retorno=0.04%
+2026-04-26 20:54:00,926 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 550 sucessos e 21 falhas simuladas.
+2026-04-26 20:54:00,926 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.00, saldo=100.13, índice=72, retorno=0.04%
+2026-04-26 20:54:00,926 - INFO - Rodada 74 concluída - agentes restantes: 5
+2026-04-26 20:54:00,938 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 25.
+2026-04-26 20:54:00,949 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 25.
+2026-04-26 20:54:00,960 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 25.
+2026-04-26 20:54:00,971 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 25.
+2026-04-26 20:54:00,971 - INFO - Rodada 75 concluída - agentes restantes: 5
+2026-04-26 20:54:00,982 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.03, saldo=100.04, índice=35, retorno=-0.28%
+2026-04-26 20:54:00,994 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.03, saldo=100.10, índice=35, retorno=-0.28%
+2026-04-26 20:54:01,006 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.03, saldo=100.10, índice=35, retorno=-0.28%
+2026-04-26 20:54:01,020 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.03, saldo=100.10, índice=35, retorno=-0.28%
+2026-04-26 20:54:01,032 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.03, saldo=100.10, índice=35, retorno=-0.28%
+2026-04-26 20:54:01,032 - INFO - Rodada 76 concluída - agentes restantes: 5
+2026-04-26 20:54:01,043 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 193.
+2026-04-26 20:54:01,055 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 193.
+2026-04-26 20:54:01,066 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 193.
+2026-04-26 20:54:01,078 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 193.
+2026-04-26 20:54:01,090 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 193.
+2026-04-26 20:54:01,090 - INFO - Rodada 77 concluída - agentes restantes: 5
+2026-04-26 20:54:01,102 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 159.
+2026-04-26 20:54:01,114 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 159.
+2026-04-26 20:54:01,126 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 159.
+2026-04-26 20:54:01,138 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 159.
+2026-04-26 20:54:01,149 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 159.
+2026-04-26 20:54:01,149 - INFO - Rodada 78 concluída - agentes restantes: 5
+2026-04-26 20:54:01,161 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.01, saldo=100.02, índice=84, retorno=-0.12%
+2026-04-26 20:54:01,172 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.01, saldo=100.09, índice=84, retorno=-0.12%
+2026-04-26 20:54:01,184 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.01, saldo=100.09, índice=84, retorno=-0.12%
+2026-04-26 20:54:01,195 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.01, saldo=100.09, índice=84, retorno=-0.12%
+2026-04-26 20:54:01,208 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.01, saldo=100.09, índice=84, retorno=-0.12%
+2026-04-26 20:54:01,208 - INFO - Rodada 79 concluída - agentes restantes: 5
+2026-04-26 20:54:01,220 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 195.
+2026-04-26 20:54:01,232 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 195.
+2026-04-26 20:54:01,244 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 195.
+2026-04-26 20:54:01,256 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 195.
+2026-04-26 20:54:01,268 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 195.
+2026-04-26 20:54:01,268 - INFO - Rodada 80 concluída - agentes restantes: 5
+2026-04-26 20:54:01,446 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 549 sucessos e 25 falhas simuladas.
+2026-04-26 20:54:01,446 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 40.12 e momentum -0.2880
+2026-04-26 20:54:01,447 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.02, saldo=100.04, índice=129, retorno=0.16%
+2026-04-26 20:54:01,622 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 551 sucessos e 23 falhas simuladas.
+2026-04-26 20:54:01,622 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.02, saldo=100.11, índice=129, retorno=0.16%
+2026-04-26 20:54:01,800 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 551 sucessos e 23 falhas simuladas.
+2026-04-26 20:54:01,800 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.02, saldo=100.11, índice=129, retorno=0.16%
+2026-04-26 20:54:01,987 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 551 sucessos e 23 falhas simuladas.
+2026-04-26 20:54:01,987 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.02, saldo=100.11, índice=129, retorno=0.16%
+2026-04-26 20:54:02,169 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 551 sucessos e 23 falhas simuladas.
+2026-04-26 20:54:02,169 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.02, saldo=100.11, índice=129, retorno=0.16%
+2026-04-26 20:54:02,169 - INFO - Rodada 81 concluída - agentes restantes: 5
+2026-04-26 20:54:02,180 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 187.
+2026-04-26 20:54:02,191 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 187.
+2026-04-26 20:54:02,202 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 187.
+2026-04-26 20:54:02,212 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 187.
+2026-04-26 20:54:02,224 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 187.
+2026-04-26 20:54:02,225 - INFO - Rodada 82 concluída - agentes restantes: 5
+2026-04-26 20:54:02,236 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 161.
+2026-04-26 20:54:02,248 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 161.
+2026-04-26 20:54:02,259 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 161.
+2026-04-26 20:54:02,270 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 161.
+2026-04-26 20:54:02,281 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 161.
+2026-04-26 20:54:02,281 - INFO - Rodada 83 concluída - agentes restantes: 5
+2026-04-26 20:54:02,292 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 85.
+2026-04-26 20:54:02,304 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.00, saldo=100.10, índice=85, retorno=-0.04%
+2026-04-26 20:54:02,315 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.00, saldo=100.10, índice=85, retorno=-0.04%
+2026-04-26 20:54:02,327 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.00, saldo=100.10, índice=85, retorno=-0.04%
+2026-04-26 20:54:02,339 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.00, saldo=100.10, índice=85, retorno=-0.04%
+2026-04-26 20:54:02,339 - INFO - Rodada 84 concluída - agentes restantes: 5
+2026-04-26 20:54:02,350 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 54.
+2026-04-26 20:54:02,360 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 54.
+2026-04-26 20:54:02,372 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 54.
+2026-04-26 20:54:02,382 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 54.
+2026-04-26 20:54:02,393 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 54.
+2026-04-26 20:54:02,393 - INFO - Rodada 85 concluída - agentes restantes: 5
+2026-04-26 20:54:02,404 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.01, saldo=100.03, índice=74, retorno=-0.12%
+2026-04-26 20:54:02,415 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 74.
+2026-04-26 20:54:02,426 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 74.
+2026-04-26 20:54:02,438 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 74.
+2026-04-26 20:54:02,449 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 74.
+2026-04-26 20:54:02,449 - INFO - Rodada 86 concluída - agentes restantes: 5
+2026-04-26 20:54:02,460 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 27.
+2026-04-26 20:54:02,471 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 27.
+2026-04-26 20:54:02,483 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 27.
+2026-04-26 20:54:02,495 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 27.
+2026-04-26 20:54:02,495 - INFO - Rodada 87 concluída - agentes restantes: 5
+2026-04-26 20:54:02,674 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 550 sucessos e 26 falhas simuladas.
+2026-04-26 20:54:02,675 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 40.15 e momentum -0.2875
+2026-04-26 20:54:02,675 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.00, saldo=100.03, índice=131, retorno=0.04%
+2026-04-26 20:54:02,866 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 552 sucessos e 24 falhas simuladas.
+2026-04-26 20:54:02,866 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.00, saldo=100.11, índice=131, retorno=0.04%
+2026-04-26 20:54:03,050 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 552 sucessos e 24 falhas simuladas.
+2026-04-26 20:54:03,050 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.00, saldo=100.11, índice=131, retorno=0.04%
+2026-04-26 20:54:03,220 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 552 sucessos e 24 falhas simuladas.
+2026-04-26 20:54:03,220 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.00, saldo=100.11, índice=131, retorno=0.04%
+2026-04-26 20:54:03,391 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 552 sucessos e 24 falhas simuladas.
+2026-04-26 20:54:03,391 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.00, saldo=100.11, índice=131, retorno=0.04%
+2026-04-26 20:54:03,391 - INFO - Rodada 88 concluída - agentes restantes: 5
+2026-04-26 20:54:03,560 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 553 sucessos e 24 falhas simuladas.
+2026-04-26 20:54:03,560 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.02, saldo=100.12, índice=23, retorno=0.16%
+2026-04-26 20:54:03,738 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 553 sucessos e 24 falhas simuladas.
+2026-04-26 20:54:03,738 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.02, saldo=100.12, índice=23, retorno=0.16%
+2026-04-26 20:54:03,926 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 553 sucessos e 24 falhas simuladas.
+2026-04-26 20:54:03,926 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.02, saldo=100.12, índice=23, retorno=0.16%
+2026-04-26 20:54:04,103 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 553 sucessos e 24 falhas simuladas.
+2026-04-26 20:54:04,103 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.02, saldo=100.12, índice=23, retorno=0.16%
+2026-04-26 20:54:04,103 - INFO - Rodada 89 concluída - agentes restantes: 5
+2026-04-26 20:54:04,114 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 168.
+2026-04-26 20:54:04,125 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 168.
+2026-04-26 20:54:04,136 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 168.
+2026-04-26 20:54:04,147 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 168.
+2026-04-26 20:54:04,158 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 168.
+2026-04-26 20:54:04,158 - INFO - Rodada 90 concluída - agentes restantes: 5
+2026-04-26 20:54:04,169 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 83.
+2026-04-26 20:54:04,340 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 554 sucessos e 24 falhas simuladas.
+2026-04-26 20:54:04,341 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.01, saldo=100.14, índice=83, retorno=0.12%
+2026-04-26 20:54:04,510 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 554 sucessos e 24 falhas simuladas.
+2026-04-26 20:54:04,510 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.01, saldo=100.14, índice=83, retorno=0.12%
+2026-04-26 20:54:04,689 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 554 sucessos e 24 falhas simuladas.
+2026-04-26 20:54:04,689 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.01, saldo=100.14, índice=83, retorno=0.12%
+2026-04-26 20:54:04,874 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 554 sucessos e 24 falhas simuladas.
+2026-04-26 20:54:04,874 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.01, saldo=100.14, índice=83, retorno=0.12%
+2026-04-26 20:54:04,874 - INFO - Rodada 91 concluída - agentes restantes: 5
+2026-04-26 20:54:04,885 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 168.
+2026-04-26 20:54:04,897 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 168.
+2026-04-26 20:54:04,908 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 168.
+2026-04-26 20:54:04,920 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 168.
+2026-04-26 20:54:04,931 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 168.
+2026-04-26 20:54:04,931 - INFO - Rodada 92 concluída - agentes restantes: 5
+2026-04-26 20:54:04,943 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 193.
+2026-04-26 20:54:04,954 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 193.
+2026-04-26 20:54:04,965 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 193.
+2026-04-26 20:54:04,976 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 193.
+2026-04-26 20:54:04,987 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 193.
+2026-04-26 20:54:04,987 - INFO - Rodada 93 concluída - agentes restantes: 5
+2026-04-26 20:54:04,998 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 142.
+2026-04-26 20:54:05,179 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 555 sucessos e 24 falhas simuladas.
+2026-04-26 20:54:05,179 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.00, saldo=100.14, índice=142, retorno=0.04%
+2026-04-26 20:54:05,352 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 555 sucessos e 24 falhas simuladas.
+2026-04-26 20:54:05,352 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.00, saldo=100.14, índice=142, retorno=0.04%
+2026-04-26 20:54:05,524 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 555 sucessos e 24 falhas simuladas.
+2026-04-26 20:54:05,524 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.00, saldo=100.14, índice=142, retorno=0.04%
+2026-04-26 20:54:05,695 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 555 sucessos e 24 falhas simuladas.
+2026-04-26 20:54:05,695 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.00, saldo=100.14, índice=142, retorno=0.04%
+2026-04-26 20:54:05,695 - INFO - Rodada 94 concluída - agentes restantes: 5
+2026-04-26 20:54:05,866 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 treinou com 551 sucessos e 26 falhas simuladas.
+2026-04-26 20:54:05,867 - INFO - SuperAgente 6046bef5-672d-47dd-994c-c703cf7e9a12 evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 40.17 e momentum -0.2869
+2026-04-26 20:54:05,867 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade vencedor: lucro=0.00, saldo=100.04, índice=97, retorno=0.04%
+2026-04-26 20:54:05,878 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 97.
+2026-04-26 20:54:05,889 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 97.
+2026-04-26 20:54:05,900 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 97.
+2026-04-26 20:54:05,912 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 97.
+2026-04-26 20:54:05,912 - INFO - Rodada 95 concluída - agentes restantes: 5
+2026-04-26 20:54:05,923 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 150.
+2026-04-26 20:54:05,934 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 150.
+2026-04-26 20:54:05,945 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 150.
+2026-04-26 20:54:05,956 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 150.
+2026-04-26 20:54:05,967 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 150.
+2026-04-26 20:54:05,967 - INFO - Rodada 96 concluída - agentes restantes: 5
+2026-04-26 20:54:05,978 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 trade perdedor: perda=-0.03, saldo=100.00, índice=70, retorno=-0.32%
+2026-04-26 20:54:05,989 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade perdedor: perda=-0.03, saldo=100.11, índice=70, retorno=-0.32%
+2026-04-26 20:54:06,000 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade perdedor: perda=-0.03, saldo=100.11, índice=70, retorno=-0.32%
+2026-04-26 20:54:06,012 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade perdedor: perda=-0.03, saldo=100.11, índice=70, retorno=-0.32%
+2026-04-26 20:54:06,024 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade perdedor: perda=-0.03, saldo=100.11, índice=70, retorno=-0.32%
+2026-04-26 20:54:06,024 - INFO - Rodada 97 concluída - agentes restantes: 5
+2026-04-26 20:54:06,036 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 142.
+2026-04-26 20:54:06,207 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 treinou com 556 sucessos e 25 falhas simuladas.
+2026-04-26 20:54:06,207 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 trade vencedor: lucro=0.00, saldo=100.11, índice=142, retorno=0.04%
+2026-04-26 20:54:06,378 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c treinou com 556 sucessos e 25 falhas simuladas.
+2026-04-26 20:54:06,378 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c trade vencedor: lucro=0.00, saldo=100.11, índice=142, retorno=0.04%
+2026-04-26 20:54:06,550 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb treinou com 556 sucessos e 25 falhas simuladas.
+2026-04-26 20:54:06,550 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb trade vencedor: lucro=0.00, saldo=100.11, índice=142, retorno=0.04%
+2026-04-26 20:54:06,720 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae treinou com 556 sucessos e 25 falhas simuladas.
+2026-04-26 20:54:06,720 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae trade vencedor: lucro=0.00, saldo=100.11, índice=142, retorno=0.04%
+2026-04-26 20:54:06,720 - INFO - Rodada 98 concluída - agentes restantes: 5
+2026-04-26 20:54:06,732 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 84.
+2026-04-26 20:54:06,745 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 84.
+2026-04-26 20:54:06,757 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 84.
+2026-04-26 20:54:06,769 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 84.
+2026-04-26 20:54:06,781 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 84.
+2026-04-26 20:54:06,781 - INFO - Rodada 99 concluída - agentes restantes: 5
+2026-04-26 20:54:06,794 - INFO - Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 ignorou trade no índice 178.
+2026-04-26 20:54:06,806 - INFO - Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 ignorou trade no índice 178.
+2026-04-26 20:54:06,820 - INFO - Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c ignorou trade no índice 178.
+2026-04-26 20:54:06,831 - INFO - Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb ignorou trade no índice 178.
+2026-04-26 20:54:06,842 - INFO - Agente 02a85770-1d6a-449f-a826-8466300a4cae ignorou trade no índice 178.
+2026-04-26 20:54:06,842 - INFO - Rodada 100 concluída - agentes restantes: 5
+2026-04-26 20:54:06,842 - INFO - Resumo Agente 6046bef5-672d-47dd-994c-c703cf7e9a12 - Saldo: 100.00, Trades: 96, Sucessos: 551, Falhas: 27
+2026-04-26 20:54:06,842 - INFO - Resumo Agente 88e771ce-8707-4e88-a250-0fefaf5c93f5 - Saldo: 100.11, Trades: 100, Sucessos: 556, Falhas: 25
+2026-04-26 20:54:06,842 - INFO - Resumo Agente 652d57a1-b80c-479d-ace2-99fdfcbf060c - Saldo: 100.11, Trades: 100, Sucessos: 556, Falhas: 25
+2026-04-26 20:54:06,842 - INFO - Resumo Agente 0c73536e-e330-4320-b7b1-61d6fa960cbb - Saldo: 100.11, Trades: 100, Sucessos: 556, Falhas: 25
+2026-04-26 20:54:06,843 - INFO - Resumo Agente 02a85770-1d6a-449f-a826-8466300a4cae - Saldo: 100.11, Trades: 100, Sucessos: 556, Falhas: 25
+2026-04-26 20:54:06,843 - INFO - Simulação concluída.
+2026-04-26 20:55:35,406 - INFO - Binance test: use_binance=True, api_key_set=True, api_secret_set=True
+2026-04-26 20:55:36,334 - ERROR - Binance test unexpected error: 'GetAccountResponse' object has no attribute 'get'
+2026-04-26 20:55:43,062 - INFO - Iniciando simulação Verdent com 5 agentes
+2026-04-26 20:55:43,065 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.00, saldo=100.00, índice=198, retorno=-0.04%
+2026-04-26 20:55:43,068 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.00, saldo=100.00, índice=198, retorno=-0.04%
+2026-04-26 20:55:43,069 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.00, saldo=100.00, índice=198, retorno=-0.04%
+2026-04-26 20:55:43,071 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.00, saldo=100.00, índice=198, retorno=-0.04%
+2026-04-26 20:55:43,073 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.00, saldo=100.00, índice=198, retorno=-0.04%
+2026-04-26 20:55:43,073 - INFO - Rodada 1 concluída - agentes restantes: 5
+2026-04-26 20:55:43,075 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 32.
+2026-04-26 20:55:43,076 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 32.
+2026-04-26 20:55:43,078 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 32.
+2026-04-26 20:55:43,080 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 32.
+2026-04-26 20:55:43,082 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 32.
+2026-04-26 20:55:43,082 - INFO - Rodada 2 concluída - agentes restantes: 5
+2026-04-26 20:55:43,230 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 652 sucessos e 1 falhas simuladas.
+2026-04-26 20:55:43,231 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.44 e momentum -0.2424
+2026-04-26 20:55:43,231 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.01, saldo=100.01, índice=188, retorno=0.12%
+2026-04-26 20:55:43,377 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 652 sucessos e 1 falhas simuladas.
+2026-04-26 20:55:43,377 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.01, saldo=100.01, índice=188, retorno=0.12%
+2026-04-26 20:55:43,528 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 652 sucessos e 1 falhas simuladas.
+2026-04-26 20:55:43,528 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.01, saldo=100.01, índice=188, retorno=0.12%
+2026-04-26 20:55:43,677 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 652 sucessos e 1 falhas simuladas.
+2026-04-26 20:55:43,677 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.01, saldo=100.01, índice=188, retorno=0.12%
+2026-04-26 20:55:43,836 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 652 sucessos e 1 falhas simuladas.
+2026-04-26 20:55:43,836 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.01, saldo=100.01, índice=188, retorno=0.12%
+2026-04-26 20:55:43,836 - INFO - Rodada 3 concluída - agentes restantes: 5
+2026-04-26 20:55:43,849 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.01, saldo=100.00, índice=38, retorno=-0.08%
+2026-04-26 20:55:43,860 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.01, saldo=100.00, índice=38, retorno=-0.08%
+2026-04-26 20:55:43,872 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.01, saldo=100.00, índice=38, retorno=-0.08%
+2026-04-26 20:55:43,883 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.01, saldo=100.00, índice=38, retorno=-0.08%
+2026-04-26 20:55:43,894 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.01, saldo=100.00, índice=38, retorno=-0.08%
+2026-04-26 20:55:43,894 - INFO - Rodada 4 concluída - agentes restantes: 5
+2026-04-26 20:55:44,059 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 653 sucessos e 2 falhas simuladas.
+2026-04-26 20:55:44,059 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'RSI sobrecomprado + pullback' para 'Supertrend sell' com média RSI 42.49 e momentum -0.2420
+2026-04-26 20:55:44,059 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.05, saldo=100.05, índice=148, retorno=0.51%
+2026-04-26 20:55:44,222 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 653 sucessos e 2 falhas simuladas.
+2026-04-26 20:55:44,222 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.05, saldo=100.05, índice=148, retorno=0.51%
+2026-04-26 20:55:44,385 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 653 sucessos e 2 falhas simuladas.
+2026-04-26 20:55:44,385 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.05, saldo=100.05, índice=148, retorno=0.51%
+2026-04-26 20:55:44,554 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 653 sucessos e 2 falhas simuladas.
+2026-04-26 20:55:44,555 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.05, saldo=100.05, índice=148, retorno=0.51%
+2026-04-26 20:55:44,718 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 653 sucessos e 2 falhas simuladas.
+2026-04-26 20:55:44,718 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.05, saldo=100.05, índice=148, retorno=0.51%
+2026-04-26 20:55:44,718 - INFO - Rodada 5 concluída - agentes restantes: 5
+2026-04-26 20:55:44,895 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 654 sucessos e 2 falhas simuladas.
+2026-04-26 20:55:44,895 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.51 e momentum -0.2417
+2026-04-26 20:55:44,895 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.04, saldo=100.09, índice=45, retorno=0.40%
+2026-04-26 20:55:45,067 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 654 sucessos e 2 falhas simuladas.
+2026-04-26 20:55:45,067 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.04, saldo=100.09, índice=45, retorno=0.40%
+2026-04-26 20:55:45,230 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 654 sucessos e 2 falhas simuladas.
+2026-04-26 20:55:45,230 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.04, saldo=100.09, índice=45, retorno=0.40%
+2026-04-26 20:55:45,394 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 654 sucessos e 2 falhas simuladas.
+2026-04-26 20:55:45,394 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.04, saldo=100.09, índice=45, retorno=0.40%
+2026-04-26 20:55:45,559 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 654 sucessos e 2 falhas simuladas.
+2026-04-26 20:55:45,559 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.04, saldo=100.09, índice=45, retorno=0.40%
+2026-04-26 20:55:45,559 - INFO - Rodada 6 concluída - agentes restantes: 5
+2026-04-26 20:55:45,571 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.00, saldo=100.09, índice=120, retorno=-0.04%
+2026-04-26 20:55:45,582 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.00, saldo=100.09, índice=120, retorno=-0.04%
+2026-04-26 20:55:45,593 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.00, saldo=100.09, índice=120, retorno=-0.04%
+2026-04-26 20:55:45,604 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.00, saldo=100.09, índice=120, retorno=-0.04%
+2026-04-26 20:55:45,615 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.00, saldo=100.09, índice=120, retorno=-0.04%
+2026-04-26 20:55:45,615 - INFO - Rodada 7 concluída - agentes restantes: 5
+2026-04-26 20:55:45,626 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.00, saldo=100.08, índice=34, retorno=-0.04%
+2026-04-26 20:55:45,637 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.00, saldo=100.08, índice=34, retorno=-0.04%
+2026-04-26 20:55:45,649 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.00, saldo=100.08, índice=34, retorno=-0.04%
+2026-04-26 20:55:45,659 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.00, saldo=100.08, índice=34, retorno=-0.04%
+2026-04-26 20:55:45,671 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.00, saldo=100.08, índice=34, retorno=-0.04%
+2026-04-26 20:55:45,671 - INFO - Rodada 8 concluída - agentes restantes: 5
+2026-04-26 20:55:45,854 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 655 sucessos e 4 falhas simuladas.
+2026-04-26 20:55:45,855 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.55 e momentum -0.2413
+2026-04-26 20:55:45,855 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.01, saldo=100.10, índice=101, retorno=0.12%
+2026-04-26 20:55:46,043 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 655 sucessos e 4 falhas simuladas.
+2026-04-26 20:55:46,043 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.01, saldo=100.10, índice=101, retorno=0.12%
+2026-04-26 20:55:46,211 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 655 sucessos e 4 falhas simuladas.
+2026-04-26 20:55:46,211 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.01, saldo=100.10, índice=101, retorno=0.12%
+2026-04-26 20:55:46,379 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 655 sucessos e 4 falhas simuladas.
+2026-04-26 20:55:46,379 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.01, saldo=100.10, índice=101, retorno=0.12%
+2026-04-26 20:55:46,545 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 655 sucessos e 4 falhas simuladas.
+2026-04-26 20:55:46,545 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.01, saldo=100.10, índice=101, retorno=0.12%
+2026-04-26 20:55:46,545 - INFO - Rodada 9 concluída - agentes restantes: 5
+2026-04-26 20:55:46,556 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.02, saldo=100.08, índice=20, retorno=-0.16%
+2026-04-26 20:55:46,567 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.02, saldo=100.08, índice=20, retorno=-0.16%
+2026-04-26 20:55:46,578 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.02, saldo=100.08, índice=20, retorno=-0.16%
+2026-04-26 20:55:46,589 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.02, saldo=100.08, índice=20, retorno=-0.16%
+2026-04-26 20:55:46,600 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.02, saldo=100.08, índice=20, retorno=-0.16%
+2026-04-26 20:55:46,600 - INFO - Rodada 10 concluída - agentes restantes: 5
+2026-04-26 20:55:46,611 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.00, saldo=100.08, índice=182, retorno=-0.04%
+2026-04-26 20:55:46,622 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.00, saldo=100.08, índice=182, retorno=-0.04%
+2026-04-26 20:55:46,633 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.00, saldo=100.08, índice=182, retorno=-0.04%
+2026-04-26 20:55:46,645 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.00, saldo=100.08, índice=182, retorno=-0.04%
+2026-04-26 20:55:46,656 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.00, saldo=100.08, índice=182, retorno=-0.04%
+2026-04-26 20:55:46,657 - INFO - Rodada 11 concluída - agentes restantes: 5
+2026-04-26 20:55:46,826 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 656 sucessos e 6 falhas simuladas.
+2026-04-26 20:55:46,827 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.55 e momentum -0.2409
+2026-04-26 20:55:46,827 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.03, saldo=100.11, índice=175, retorno=0.32%
+2026-04-26 20:55:46,995 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 656 sucessos e 6 falhas simuladas.
+2026-04-26 20:55:46,995 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.03, saldo=100.11, índice=175, retorno=0.32%
+2026-04-26 20:55:47,175 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 656 sucessos e 6 falhas simuladas.
+2026-04-26 20:55:47,175 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.03, saldo=100.11, índice=175, retorno=0.32%
+2026-04-26 20:55:47,347 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 656 sucessos e 6 falhas simuladas.
+2026-04-26 20:55:47,347 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.03, saldo=100.11, índice=175, retorno=0.32%
+2026-04-26 20:55:47,509 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 656 sucessos e 6 falhas simuladas.
+2026-04-26 20:55:47,510 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.03, saldo=100.11, índice=175, retorno=0.32%
+2026-04-26 20:55:47,510 - INFO - Rodada 12 concluída - agentes restantes: 5
+2026-04-26 20:55:47,521 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.01, saldo=100.10, índice=60, retorno=-0.12%
+2026-04-26 20:55:47,533 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.01, saldo=100.10, índice=60, retorno=-0.12%
+2026-04-26 20:55:47,543 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.01, saldo=100.10, índice=60, retorno=-0.12%
+2026-04-26 20:55:47,562 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.01, saldo=100.10, índice=60, retorno=-0.12%
+2026-04-26 20:55:47,573 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.01, saldo=100.10, índice=60, retorno=-0.12%
+2026-04-26 20:55:47,574 - INFO - Rodada 13 concluída - agentes restantes: 5
+2026-04-26 20:55:47,742 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 657 sucessos e 7 falhas simuladas.
+2026-04-26 20:55:47,743 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.58 e momentum -0.2406
+2026-04-26 20:55:47,743 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.00, saldo=100.10, índice=137, retorno=0.04%
+2026-04-26 20:55:47,924 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 657 sucessos e 7 falhas simuladas.
+2026-04-26 20:55:47,924 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.00, saldo=100.10, índice=137, retorno=0.04%
+2026-04-26 20:55:48,125 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 657 sucessos e 7 falhas simuladas.
+2026-04-26 20:55:48,125 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.00, saldo=100.10, índice=137, retorno=0.04%
+2026-04-26 20:55:48,294 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 657 sucessos e 7 falhas simuladas.
+2026-04-26 20:55:48,294 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.00, saldo=100.10, índice=137, retorno=0.04%
+2026-04-26 20:55:48,476 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 657 sucessos e 7 falhas simuladas.
+2026-04-26 20:55:48,476 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.00, saldo=100.10, índice=137, retorno=0.04%
+2026-04-26 20:55:48,476 - INFO - Rodada 14 concluída - agentes restantes: 5
+2026-04-26 20:55:48,488 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.01, saldo=100.09, índice=167, retorno=-0.12%
+2026-04-26 20:55:48,500 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.01, saldo=100.09, índice=167, retorno=-0.12%
+2026-04-26 20:55:48,512 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.01, saldo=100.09, índice=167, retorno=-0.12%
+2026-04-26 20:55:48,525 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.01, saldo=100.09, índice=167, retorno=-0.12%
+2026-04-26 20:55:48,537 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.01, saldo=100.09, índice=167, retorno=-0.12%
+2026-04-26 20:55:48,537 - INFO - Rodada 15 concluída - agentes restantes: 5
+2026-04-26 20:55:48,709 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 658 sucessos e 8 falhas simuladas.
+2026-04-26 20:55:48,710 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.62 e momentum -0.2402
+2026-04-26 20:55:48,710 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.00, saldo=100.09, índice=128, retorno=0.04%
+2026-04-26 20:55:48,897 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 658 sucessos e 8 falhas simuladas.
+2026-04-26 20:55:48,897 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.00, saldo=100.09, índice=128, retorno=0.04%
+2026-04-26 20:55:49,071 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 658 sucessos e 8 falhas simuladas.
+2026-04-26 20:55:49,071 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.00, saldo=100.09, índice=128, retorno=0.04%
+2026-04-26 20:55:49,258 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 658 sucessos e 8 falhas simuladas.
+2026-04-26 20:55:49,258 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.00, saldo=100.09, índice=128, retorno=0.04%
+2026-04-26 20:55:49,434 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 658 sucessos e 8 falhas simuladas.
+2026-04-26 20:55:49,435 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.00, saldo=100.09, índice=128, retorno=0.04%
+2026-04-26 20:55:49,435 - INFO - Rodada 16 concluída - agentes restantes: 5
+2026-04-26 20:55:49,609 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 659 sucessos e 8 falhas simuladas.
+2026-04-26 20:55:49,609 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.66 e momentum -0.2398
+2026-04-26 20:55:49,610 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.00, saldo=100.10, índice=97, retorno=0.04%
+2026-04-26 20:55:49,819 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 659 sucessos e 8 falhas simuladas.
+2026-04-26 20:55:49,820 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.00, saldo=100.10, índice=97, retorno=0.04%
+2026-04-26 20:55:49,995 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 659 sucessos e 8 falhas simuladas.
+2026-04-26 20:55:49,996 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.00, saldo=100.10, índice=97, retorno=0.04%
+2026-04-26 20:55:50,179 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 659 sucessos e 8 falhas simuladas.
+2026-04-26 20:55:50,180 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.00, saldo=100.10, índice=97, retorno=0.04%
+2026-04-26 20:55:50,361 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 659 sucessos e 8 falhas simuladas.
+2026-04-26 20:55:50,361 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.00, saldo=100.10, índice=97, retorno=0.04%
+2026-04-26 20:55:50,361 - INFO - Rodada 17 concluída - agentes restantes: 5
+2026-04-26 20:55:50,372 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.00, saldo=100.09, índice=85, retorno=-0.04%
+2026-04-26 20:55:50,384 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.00, saldo=100.09, índice=85, retorno=-0.04%
+2026-04-26 20:55:50,396 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.00, saldo=100.09, índice=85, retorno=-0.04%
+2026-04-26 20:55:50,408 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.00, saldo=100.09, índice=85, retorno=-0.04%
+2026-04-26 20:55:50,419 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.00, saldo=100.09, índice=85, retorno=-0.04%
+2026-04-26 20:55:50,419 - INFO - Rodada 18 concluída - agentes restantes: 5
+2026-04-26 20:55:50,431 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.01, saldo=100.08, índice=84, retorno=-0.12%
+2026-04-26 20:55:50,443 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.01, saldo=100.08, índice=84, retorno=-0.12%
+2026-04-26 20:55:50,454 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.01, saldo=100.08, índice=84, retorno=-0.12%
+2026-04-26 20:55:50,466 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.01, saldo=100.08, índice=84, retorno=-0.12%
+2026-04-26 20:55:50,477 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.01, saldo=100.08, índice=84, retorno=-0.12%
+2026-04-26 20:55:50,477 - INFO - Rodada 19 concluída - agentes restantes: 5
+2026-04-26 20:55:50,661 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 660 sucessos e 10 falhas simuladas.
+2026-04-26 20:55:50,662 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'RSI sobrevendido + reversão' para 'Supertrend sell' com média RSI 42.67 e momentum -0.2395
+2026-04-26 20:55:50,662 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.00, saldo=100.08, índice=158, retorno=0.04%
+2026-04-26 20:55:50,927 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 660 sucessos e 10 falhas simuladas.
+2026-04-26 20:55:50,927 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.00, saldo=100.08, índice=158, retorno=0.04%
+2026-04-26 20:55:51,123 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 660 sucessos e 10 falhas simuladas.
+2026-04-26 20:55:51,123 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.00, saldo=100.08, índice=158, retorno=0.04%
+2026-04-26 20:55:51,336 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 660 sucessos e 10 falhas simuladas.
+2026-04-26 20:55:51,336 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.00, saldo=100.08, índice=158, retorno=0.04%
+2026-04-26 20:55:51,527 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 660 sucessos e 10 falhas simuladas.
+2026-04-26 20:55:51,527 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.00, saldo=100.08, índice=158, retorno=0.04%
+2026-04-26 20:55:51,527 - INFO - Rodada 20 concluída - agentes restantes: 5
+2026-04-26 20:55:51,708 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 661 sucessos e 10 falhas simuladas.
+2026-04-26 20:55:51,709 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.67 e momentum -0.2391
+2026-04-26 20:55:51,709 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.02, saldo=100.11, índice=118, retorno=0.24%
+2026-04-26 20:55:51,906 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 661 sucessos e 10 falhas simuladas.
+2026-04-26 20:55:51,907 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.02, saldo=100.11, índice=118, retorno=0.24%
+2026-04-26 20:55:52,094 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 661 sucessos e 10 falhas simuladas.
+2026-04-26 20:55:52,094 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.02, saldo=100.11, índice=118, retorno=0.24%
+2026-04-26 20:55:52,323 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 661 sucessos e 10 falhas simuladas.
+2026-04-26 20:55:52,323 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.02, saldo=100.11, índice=118, retorno=0.24%
+2026-04-26 20:55:52,518 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 661 sucessos e 10 falhas simuladas.
+2026-04-26 20:55:52,518 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.02, saldo=100.11, índice=118, retorno=0.24%
+2026-04-26 20:55:52,518 - INFO - Rodada 21 concluída - agentes restantes: 5
+2026-04-26 20:55:52,700 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 662 sucessos e 10 falhas simuladas.
+2026-04-26 20:55:52,701 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'RSI sobrevendido + reversão' para 'Supertrend sell' com média RSI 42.64 e momentum -0.2388
+2026-04-26 20:55:52,701 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.01, saldo=100.12, índice=83, retorno=0.12%
+2026-04-26 20:55:52,893 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 662 sucessos e 10 falhas simuladas.
+2026-04-26 20:55:52,893 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.01, saldo=100.12, índice=83, retorno=0.12%
+2026-04-26 20:55:53,072 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 662 sucessos e 10 falhas simuladas.
+2026-04-26 20:55:53,073 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.01, saldo=100.12, índice=83, retorno=0.12%
+2026-04-26 20:55:53,247 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 662 sucessos e 10 falhas simuladas.
+2026-04-26 20:55:53,247 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.01, saldo=100.12, índice=83, retorno=0.12%
+2026-04-26 20:55:53,420 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 662 sucessos e 10 falhas simuladas.
+2026-04-26 20:55:53,420 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.01, saldo=100.12, índice=83, retorno=0.12%
+2026-04-26 20:55:53,420 - INFO - Rodada 22 concluída - agentes restantes: 5
+2026-04-26 20:55:53,433 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.02, saldo=100.10, índice=73, retorno=-0.20%
+2026-04-26 20:55:53,444 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.02, saldo=100.10, índice=73, retorno=-0.20%
+2026-04-26 20:55:53,457 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.02, saldo=100.10, índice=73, retorno=-0.20%
+2026-04-26 20:55:53,469 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.02, saldo=100.10, índice=73, retorno=-0.20%
+2026-04-26 20:55:53,480 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.02, saldo=100.10, índice=73, retorno=-0.20%
+2026-04-26 20:55:53,480 - INFO - Rodada 23 concluída - agentes restantes: 5
+2026-04-26 20:55:53,668 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 663 sucessos e 11 falhas simuladas.
+2026-04-26 20:55:53,668 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.64 e momentum -0.2384
+2026-04-26 20:55:53,668 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.03, saldo=100.13, índice=197, retorno=0.32%
+2026-04-26 20:55:53,840 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 663 sucessos e 11 falhas simuladas.
+2026-04-26 20:55:53,840 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.03, saldo=100.13, índice=197, retorno=0.32%
+2026-04-26 20:55:54,014 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 663 sucessos e 11 falhas simuladas.
+2026-04-26 20:55:54,014 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.03, saldo=100.13, índice=197, retorno=0.32%
+2026-04-26 20:55:54,183 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 663 sucessos e 11 falhas simuladas.
+2026-04-26 20:55:54,183 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.03, saldo=100.13, índice=197, retorno=0.32%
+2026-04-26 20:55:54,356 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 663 sucessos e 11 falhas simuladas.
+2026-04-26 20:55:54,356 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.03, saldo=100.13, índice=197, retorno=0.32%
+2026-04-26 20:55:54,357 - INFO - Rodada 24 concluída - agentes restantes: 5
+2026-04-26 20:55:54,535 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 664 sucessos e 11 falhas simuladas.
+2026-04-26 20:55:54,536 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.67 e momentum -0.2380
+2026-04-26 20:55:54,536 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.00, saldo=100.13, índice=131, retorno=0.04%
+2026-04-26 20:55:54,709 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 664 sucessos e 11 falhas simuladas.
+2026-04-26 20:55:54,709 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.00, saldo=100.13, índice=131, retorno=0.04%
+2026-04-26 20:55:54,885 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 664 sucessos e 11 falhas simuladas.
+2026-04-26 20:55:54,885 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.00, saldo=100.13, índice=131, retorno=0.04%
+2026-04-26 20:55:55,059 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 664 sucessos e 11 falhas simuladas.
+2026-04-26 20:55:55,059 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.00, saldo=100.13, índice=131, retorno=0.04%
+2026-04-26 20:55:55,233 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 664 sucessos e 11 falhas simuladas.
+2026-04-26 20:55:55,233 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.00, saldo=100.13, índice=131, retorno=0.04%
+2026-04-26 20:55:55,233 - INFO - Rodada 25 concluída - agentes restantes: 5
+2026-04-26 20:55:55,245 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.01, saldo=100.12, índice=103, retorno=-0.12%
+2026-04-26 20:55:55,256 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.01, saldo=100.12, índice=103, retorno=-0.12%
+2026-04-26 20:55:55,267 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.01, saldo=100.12, índice=103, retorno=-0.12%
+2026-04-26 20:55:55,279 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.01, saldo=100.12, índice=103, retorno=-0.12%
+2026-04-26 20:55:55,290 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.01, saldo=100.12, índice=103, retorno=-0.12%
+2026-04-26 20:55:55,290 - INFO - Rodada 26 concluída - agentes restantes: 5
+2026-04-26 20:55:55,463 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 665 sucessos e 12 falhas simuladas.
+2026-04-26 20:55:55,464 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.67 e momentum -0.2377
+2026-04-26 20:55:55,464 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.01, saldo=100.13, índice=172, retorno=0.12%
+2026-04-26 20:55:55,636 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 665 sucessos e 12 falhas simuladas.
+2026-04-26 20:55:55,636 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.01, saldo=100.13, índice=172, retorno=0.12%
+2026-04-26 20:55:55,806 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 665 sucessos e 12 falhas simuladas.
+2026-04-26 20:55:55,807 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.01, saldo=100.13, índice=172, retorno=0.12%
+2026-04-26 20:55:55,977 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 665 sucessos e 12 falhas simuladas.
+2026-04-26 20:55:55,977 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.01, saldo=100.13, índice=172, retorno=0.12%
+2026-04-26 20:55:56,149 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 665 sucessos e 12 falhas simuladas.
+2026-04-26 20:55:56,150 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.01, saldo=100.13, índice=172, retorno=0.12%
+2026-04-26 20:55:56,150 - INFO - Rodada 27 concluída - agentes restantes: 5
+2026-04-26 20:55:56,319 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 666 sucessos e 12 falhas simuladas.
+2026-04-26 20:55:56,320 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.67 e momentum -0.2373
+2026-04-26 20:55:56,320 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.02, saldo=100.16, índice=118, retorno=0.24%
+2026-04-26 20:55:56,500 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 666 sucessos e 12 falhas simuladas.
+2026-04-26 20:55:56,500 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.02, saldo=100.16, índice=118, retorno=0.24%
+2026-04-26 20:55:56,694 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 666 sucessos e 12 falhas simuladas.
+2026-04-26 20:55:56,695 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.02, saldo=100.16, índice=118, retorno=0.24%
+2026-04-26 20:55:56,877 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 666 sucessos e 12 falhas simuladas.
+2026-04-26 20:55:56,877 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.02, saldo=100.16, índice=118, retorno=0.24%
+2026-04-26 20:55:57,047 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 666 sucessos e 12 falhas simuladas.
+2026-04-26 20:55:57,048 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.02, saldo=100.16, índice=118, retorno=0.24%
+2026-04-26 20:55:57,048 - INFO - Rodada 28 concluída - agentes restantes: 5
+2026-04-26 20:55:57,059 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=0.00, saldo=100.16, índice=46, retorno=0.00%
+2026-04-26 20:55:57,070 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=0.00, saldo=100.16, índice=46, retorno=0.00%
+2026-04-26 20:55:57,081 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=0.00, saldo=100.16, índice=46, retorno=0.00%
+2026-04-26 20:55:57,092 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=0.00, saldo=100.16, índice=46, retorno=0.00%
+2026-04-26 20:55:57,103 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=0.00, saldo=100.16, índice=46, retorno=0.00%
+2026-04-26 20:55:57,103 - INFO - Rodada 29 concluída - agentes restantes: 5
+2026-04-26 20:55:57,278 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 667 sucessos e 13 falhas simuladas.
+2026-04-26 20:55:57,278 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.68 e momentum -0.2370
+2026-04-26 20:55:57,278 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.01, saldo=100.17, índice=194, retorno=0.12%
+2026-04-26 20:55:57,453 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 667 sucessos e 13 falhas simuladas.
+2026-04-26 20:55:57,454 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.01, saldo=100.17, índice=194, retorno=0.12%
+2026-04-26 20:55:57,625 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 667 sucessos e 13 falhas simuladas.
+2026-04-26 20:55:57,625 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.01, saldo=100.17, índice=194, retorno=0.12%
+2026-04-26 20:55:57,800 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 667 sucessos e 13 falhas simuladas.
+2026-04-26 20:55:57,800 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.01, saldo=100.17, índice=194, retorno=0.12%
+2026-04-26 20:55:57,982 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 667 sucessos e 13 falhas simuladas.
+2026-04-26 20:55:57,982 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.01, saldo=100.17, índice=194, retorno=0.12%
+2026-04-26 20:55:57,982 - INFO - Rodada 30 concluída - agentes restantes: 5
+2026-04-26 20:55:58,183 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 668 sucessos e 13 falhas simuladas.
+2026-04-26 20:55:58,183 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.67 e momentum -0.2366
+2026-04-26 20:55:58,183 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.01, saldo=100.18, índice=89, retorno=0.08%
+2026-04-26 20:55:58,357 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 668 sucessos e 13 falhas simuladas.
+2026-04-26 20:55:58,357 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.01, saldo=100.18, índice=89, retorno=0.08%
+2026-04-26 20:55:58,527 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 668 sucessos e 13 falhas simuladas.
+2026-04-26 20:55:58,527 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.01, saldo=100.18, índice=89, retorno=0.08%
+2026-04-26 20:55:58,711 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 668 sucessos e 13 falhas simuladas.
+2026-04-26 20:55:58,711 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.01, saldo=100.18, índice=89, retorno=0.08%
+2026-04-26 20:55:58,887 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 668 sucessos e 13 falhas simuladas.
+2026-04-26 20:55:58,887 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.01, saldo=100.18, índice=89, retorno=0.08%
+2026-04-26 20:55:58,887 - INFO - Rodada 31 concluída - agentes restantes: 5
+2026-04-26 20:55:59,061 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 669 sucessos e 13 falhas simuladas.
+2026-04-26 20:55:59,061 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.70 e momentum -0.2363
+2026-04-26 20:55:59,062 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.00, saldo=100.18, índice=142, retorno=0.04%
+2026-04-26 20:55:59,247 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 669 sucessos e 13 falhas simuladas.
+2026-04-26 20:55:59,247 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.00, saldo=100.18, índice=142, retorno=0.04%
+2026-04-26 20:55:59,423 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 669 sucessos e 13 falhas simuladas.
+2026-04-26 20:55:59,423 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.00, saldo=100.18, índice=142, retorno=0.04%
+2026-04-26 20:55:59,596 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 669 sucessos e 13 falhas simuladas.
+2026-04-26 20:55:59,596 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.00, saldo=100.18, índice=142, retorno=0.04%
+2026-04-26 20:55:59,801 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 669 sucessos e 13 falhas simuladas.
+2026-04-26 20:55:59,802 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.00, saldo=100.18, índice=142, retorno=0.04%
+2026-04-26 20:55:59,802 - INFO - Rodada 32 concluída - agentes restantes: 5
+2026-04-26 20:55:59,814 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.00, saldo=100.18, índice=34, retorno=-0.04%
+2026-04-26 20:55:59,825 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 34.
+2026-04-26 20:55:59,836 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 34.
+2026-04-26 20:55:59,848 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 34.
+2026-04-26 20:55:59,859 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 34.
+2026-04-26 20:55:59,859 - INFO - Rodada 33 concluída - agentes restantes: 5
+2026-04-26 20:55:59,870 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.01, saldo=100.17, índice=170, retorno=-0.08%
+2026-04-26 20:55:59,882 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.01, saldo=100.18, índice=170, retorno=-0.08%
+2026-04-26 20:55:59,893 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.01, saldo=100.18, índice=170, retorno=-0.08%
+2026-04-26 20:55:59,904 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.01, saldo=100.18, índice=170, retorno=-0.08%
+2026-04-26 20:55:59,915 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.01, saldo=100.18, índice=170, retorno=-0.08%
+2026-04-26 20:55:59,915 - INFO - Rodada 34 concluída - agentes restantes: 5
+2026-04-26 20:55:59,926 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 198.
+2026-04-26 20:55:59,937 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 198.
+2026-04-26 20:55:59,948 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 198.
+2026-04-26 20:55:59,959 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 198.
+2026-04-26 20:55:59,970 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 198.
+2026-04-26 20:55:59,970 - INFO - Rodada 35 concluída - agentes restantes: 5
+2026-04-26 20:55:59,982 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.00, saldo=100.17, índice=91, retorno=-0.04%
+2026-04-26 20:55:59,993 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.00, saldo=100.17, índice=91, retorno=-0.04%
+2026-04-26 20:56:00,006 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.00, saldo=100.17, índice=91, retorno=-0.04%
+2026-04-26 20:56:00,018 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.00, saldo=100.17, índice=91, retorno=-0.04%
+2026-04-26 20:56:00,030 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.00, saldo=100.17, índice=91, retorno=-0.04%
+2026-04-26 20:56:00,030 - INFO - Rodada 36 concluída - agentes restantes: 5
+2026-04-26 20:56:00,210 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 670 sucessos e 16 falhas simuladas.
+2026-04-26 20:56:00,211 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.71 e momentum -0.2359
+2026-04-26 20:56:00,211 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.02, saldo=100.18, índice=184, retorno=0.16%
+2026-04-26 20:56:00,387 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 670 sucessos e 15 falhas simuladas.
+2026-04-26 20:56:00,387 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.02, saldo=100.19, índice=184, retorno=0.16%
+2026-04-26 20:56:00,562 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 670 sucessos e 15 falhas simuladas.
+2026-04-26 20:56:00,562 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.02, saldo=100.19, índice=184, retorno=0.16%
+2026-04-26 20:56:00,738 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 670 sucessos e 15 falhas simuladas.
+2026-04-26 20:56:00,738 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.02, saldo=100.19, índice=184, retorno=0.16%
+2026-04-26 20:56:00,993 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 670 sucessos e 15 falhas simuladas.
+2026-04-26 20:56:00,993 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.02, saldo=100.19, índice=184, retorno=0.16%
+2026-04-26 20:56:00,993 - INFO - Rodada 37 concluída - agentes restantes: 5
+2026-04-26 20:56:01,172 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 671 sucessos e 16 falhas simuladas.
+2026-04-26 20:56:01,173 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.74 e momentum -0.2355
+2026-04-26 20:56:01,173 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.02, saldo=100.20, índice=147, retorno=0.16%
+2026-04-26 20:56:01,347 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 671 sucessos e 15 falhas simuladas.
+2026-04-26 20:56:01,347 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.02, saldo=100.20, índice=147, retorno=0.16%
+2026-04-26 20:56:01,522 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 671 sucessos e 15 falhas simuladas.
+2026-04-26 20:56:01,522 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.02, saldo=100.20, índice=147, retorno=0.16%
+2026-04-26 20:56:01,701 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 671 sucessos e 15 falhas simuladas.
+2026-04-26 20:56:01,701 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.02, saldo=100.20, índice=147, retorno=0.16%
+2026-04-26 20:56:01,890 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 671 sucessos e 15 falhas simuladas.
+2026-04-26 20:56:01,890 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.02, saldo=100.20, índice=147, retorno=0.16%
+2026-04-26 20:56:01,890 - INFO - Rodada 38 concluída - agentes restantes: 5
+2026-04-26 20:56:01,902 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.02, saldo=100.18, índice=27, retorno=-0.24%
+2026-04-26 20:56:01,914 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.02, saldo=100.18, índice=27, retorno=-0.24%
+2026-04-26 20:56:01,927 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.02, saldo=100.18, índice=27, retorno=-0.24%
+2026-04-26 20:56:01,940 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.02, saldo=100.18, índice=27, retorno=-0.24%
+2026-04-26 20:56:01,940 - INFO - Rodada 39 concluída - agentes restantes: 5
+2026-04-26 20:56:01,952 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 84.
+2026-04-26 20:56:01,965 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 84.
+2026-04-26 20:56:01,978 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 84.
+2026-04-26 20:56:01,990 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 84.
+2026-04-26 20:56:02,003 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 84.
+2026-04-26 20:56:02,003 - INFO - Rodada 40 concluída - agentes restantes: 5
+2026-04-26 20:56:02,196 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 672 sucessos e 16 falhas simuladas.
+2026-04-26 20:56:02,197 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.75 e momentum -0.2352
+2026-04-26 20:56:02,197 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.00, saldo=100.20, índice=181, retorno=0.04%
+2026-04-26 20:56:02,209 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 181.
+2026-04-26 20:56:02,221 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 181.
+2026-04-26 20:56:02,232 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 181.
+2026-04-26 20:56:02,243 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 181.
+2026-04-26 20:56:02,243 - INFO - Rodada 41 concluída - agentes restantes: 5
+2026-04-26 20:56:02,254 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 53.
+2026-04-26 20:56:02,265 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.03, saldo=100.15, índice=53, retorno=-0.28%
+2026-04-26 20:56:02,277 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.03, saldo=100.15, índice=53, retorno=-0.28%
+2026-04-26 20:56:02,288 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.03, saldo=100.15, índice=53, retorno=-0.28%
+2026-04-26 20:56:02,299 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.03, saldo=100.15, índice=53, retorno=-0.28%
+2026-04-26 20:56:02,299 - INFO - Rodada 42 concluída - agentes restantes: 5
+2026-04-26 20:56:02,477 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 673 sucessos e 16 falhas simuladas.
+2026-04-26 20:56:02,478 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.75 e momentum -0.2349
+2026-04-26 20:56:02,478 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.03, saldo=100.23, índice=175, retorno=0.32%
+2026-04-26 20:56:02,650 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 672 sucessos e 17 falhas simuladas.
+2026-04-26 20:56:02,650 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.03, saldo=100.18, índice=175, retorno=0.32%
+2026-04-26 20:56:02,838 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 672 sucessos e 17 falhas simuladas.
+2026-04-26 20:56:02,838 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.03, saldo=100.18, índice=175, retorno=0.32%
+2026-04-26 20:56:03,049 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 672 sucessos e 17 falhas simuladas.
+2026-04-26 20:56:03,049 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.03, saldo=100.18, índice=175, retorno=0.32%
+2026-04-26 20:56:03,236 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 672 sucessos e 17 falhas simuladas.
+2026-04-26 20:56:03,236 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.03, saldo=100.18, índice=175, retorno=0.32%
+2026-04-26 20:56:03,236 - INFO - Rodada 43 concluída - agentes restantes: 5
+2026-04-26 20:56:03,247 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=0.00, saldo=100.23, índice=145, retorno=0.00%
+2026-04-26 20:56:03,258 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 145.
+2026-04-26 20:56:03,269 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 145.
+2026-04-26 20:56:03,280 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 145.
+2026-04-26 20:56:03,292 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 145.
+2026-04-26 20:56:03,292 - INFO - Rodada 44 concluída - agentes restantes: 5
+2026-04-26 20:56:03,466 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 674 sucessos e 17 falhas simuladas.
+2026-04-26 20:56:03,467 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.76 e momentum -0.2345
+2026-04-26 20:56:03,467 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.01, saldo=100.25, índice=172, retorno=0.12%
+2026-04-26 20:56:03,640 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 673 sucessos e 17 falhas simuladas.
+2026-04-26 20:56:03,640 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.01, saldo=100.19, índice=172, retorno=0.12%
+2026-04-26 20:56:03,816 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 673 sucessos e 17 falhas simuladas.
+2026-04-26 20:56:03,817 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.01, saldo=100.19, índice=172, retorno=0.12%
+2026-04-26 20:56:03,999 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 673 sucessos e 17 falhas simuladas.
+2026-04-26 20:56:03,999 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.01, saldo=100.19, índice=172, retorno=0.12%
+2026-04-26 20:56:04,171 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 673 sucessos e 17 falhas simuladas.
+2026-04-26 20:56:04,171 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.01, saldo=100.19, índice=172, retorno=0.12%
+2026-04-26 20:56:04,172 - INFO - Rodada 45 concluída - agentes restantes: 5
+2026-04-26 20:56:04,351 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 675 sucessos e 17 falhas simuladas.
+2026-04-26 20:56:04,351 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.76 e momentum -0.2342
+2026-04-26 20:56:04,352 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.00, saldo=100.25, índice=108, retorno=0.04%
+2026-04-26 20:56:04,530 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 674 sucessos e 17 falhas simuladas.
+2026-04-26 20:56:04,530 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.00, saldo=100.20, índice=108, retorno=0.04%
+2026-04-26 20:56:04,706 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 674 sucessos e 17 falhas simuladas.
+2026-04-26 20:56:04,707 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.00, saldo=100.20, índice=108, retorno=0.04%
+2026-04-26 20:56:04,889 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 674 sucessos e 17 falhas simuladas.
+2026-04-26 20:56:04,889 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.00, saldo=100.20, índice=108, retorno=0.04%
+2026-04-26 20:56:05,082 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 674 sucessos e 17 falhas simuladas.
+2026-04-26 20:56:05,082 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.00, saldo=100.20, índice=108, retorno=0.04%
+2026-04-26 20:56:05,082 - INFO - Rodada 46 concluída - agentes restantes: 5
+2026-04-26 20:56:05,093 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.02, saldo=100.23, índice=119, retorno=-0.24%
+2026-04-26 20:56:05,105 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.02, saldo=100.17, índice=119, retorno=-0.24%
+2026-04-26 20:56:05,116 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.02, saldo=100.17, índice=119, retorno=-0.24%
+2026-04-26 20:56:05,128 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.02, saldo=100.17, índice=119, retorno=-0.24%
+2026-04-26 20:56:05,140 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.02, saldo=100.17, índice=119, retorno=-0.24%
+2026-04-26 20:56:05,141 - INFO - Rodada 47 concluída - agentes restantes: 5
+2026-04-26 20:56:05,153 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.00, saldo=100.22, índice=195, retorno=-0.04%
+2026-04-26 20:56:05,164 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.00, saldo=100.17, índice=195, retorno=-0.04%
+2026-04-26 20:56:05,175 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.00, saldo=100.17, índice=195, retorno=-0.04%
+2026-04-26 20:56:05,187 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.00, saldo=100.17, índice=195, retorno=-0.04%
+2026-04-26 20:56:05,198 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.00, saldo=100.17, índice=195, retorno=-0.04%
+2026-04-26 20:56:05,198 - INFO - Rodada 48 concluída - agentes restantes: 5
+2026-04-26 20:56:05,392 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 676 sucessos e 19 falhas simuladas.
+2026-04-26 20:56:05,392 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.77 e momentum -0.2338
+2026-04-26 20:56:05,392 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.01, saldo=100.23, índice=172, retorno=0.12%
+2026-04-26 20:56:05,578 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 675 sucessos e 19 falhas simuladas.
+2026-04-26 20:56:05,578 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.01, saldo=100.18, índice=172, retorno=0.12%
+2026-04-26 20:56:05,756 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 675 sucessos e 19 falhas simuladas.
+2026-04-26 20:56:05,756 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.01, saldo=100.18, índice=172, retorno=0.12%
+2026-04-26 20:56:05,936 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 675 sucessos e 19 falhas simuladas.
+2026-04-26 20:56:05,936 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.01, saldo=100.18, índice=172, retorno=0.12%
+2026-04-26 20:56:06,110 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 675 sucessos e 19 falhas simuladas.
+2026-04-26 20:56:06,111 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.01, saldo=100.18, índice=172, retorno=0.12%
+2026-04-26 20:56:06,111 - INFO - Rodada 49 concluída - agentes restantes: 5
+2026-04-26 20:56:06,286 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 677 sucessos e 19 falhas simuladas.
+2026-04-26 20:56:06,287 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.79 e momentum -0.2335
+2026-04-26 20:56:06,287 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.00, saldo=100.24, índice=134, retorno=0.04%
+2026-04-26 20:56:06,460 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 676 sucessos e 19 falhas simuladas.
+2026-04-26 20:56:06,460 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.00, saldo=100.19, índice=134, retorno=0.04%
+2026-04-26 20:56:06,636 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 676 sucessos e 19 falhas simuladas.
+2026-04-26 20:56:06,636 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.00, saldo=100.19, índice=134, retorno=0.04%
+2026-04-26 20:56:06,810 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 676 sucessos e 19 falhas simuladas.
+2026-04-26 20:56:06,810 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.00, saldo=100.19, índice=134, retorno=0.04%
+2026-04-26 20:56:06,992 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 676 sucessos e 19 falhas simuladas.
+2026-04-26 20:56:06,992 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.00, saldo=100.19, índice=134, retorno=0.04%
+2026-04-26 20:56:06,992 - INFO - Rodada 50 concluída - agentes restantes: 5
+2026-04-26 20:56:07,003 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 82.
+2026-04-26 20:56:07,015 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.01, saldo=100.17, índice=82, retorno=-0.12%
+2026-04-26 20:56:07,026 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.01, saldo=100.17, índice=82, retorno=-0.12%
+2026-04-26 20:56:07,038 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.01, saldo=100.17, índice=82, retorno=-0.12%
+2026-04-26 20:56:07,049 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.01, saldo=100.17, índice=82, retorno=-0.12%
+2026-04-26 20:56:07,049 - INFO - Rodada 51 concluída - agentes restantes: 5
+2026-04-26 20:56:07,060 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 34.
+2026-04-26 20:56:07,071 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 34.
+2026-04-26 20:56:07,082 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 34.
+2026-04-26 20:56:07,095 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 34.
+2026-04-26 20:56:07,095 - INFO - Rodada 52 concluída - agentes restantes: 5
+2026-04-26 20:56:07,107 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 57.
+2026-04-26 20:56:07,120 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=0.00, saldo=100.17, índice=57, retorno=0.00%
+2026-04-26 20:56:07,132 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=0.00, saldo=100.17, índice=57, retorno=0.00%
+2026-04-26 20:56:07,145 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=0.00, saldo=100.17, índice=57, retorno=0.00%
+2026-04-26 20:56:07,157 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=0.00, saldo=100.17, índice=57, retorno=0.00%
+2026-04-26 20:56:07,157 - INFO - Rodada 53 concluída - agentes restantes: 5
+2026-04-26 20:56:07,170 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=0.00, saldo=100.24, índice=78, retorno=0.00%
+2026-04-26 20:56:07,182 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 78.
+2026-04-26 20:56:07,194 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 78.
+2026-04-26 20:56:07,205 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 78.
+2026-04-26 20:56:07,215 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 78.
+2026-04-26 20:56:07,216 - INFO - Rodada 54 concluída - agentes restantes: 5
+2026-04-26 20:56:07,412 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 678 sucessos e 20 falhas simuladas.
+2026-04-26 20:56:07,413 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.81 e momentum -0.2331
+2026-04-26 20:56:07,413 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.02, saldo=100.26, índice=41, retorno=0.20%
+2026-04-26 20:56:07,602 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 677 sucessos e 21 falhas simuladas.
+2026-04-26 20:56:07,602 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.02, saldo=100.19, índice=41, retorno=0.20%
+2026-04-26 20:56:07,781 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 677 sucessos e 21 falhas simuladas.
+2026-04-26 20:56:07,781 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.02, saldo=100.19, índice=41, retorno=0.20%
+2026-04-26 20:56:07,964 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 677 sucessos e 21 falhas simuladas.
+2026-04-26 20:56:07,964 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.02, saldo=100.19, índice=41, retorno=0.20%
+2026-04-26 20:56:08,143 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 677 sucessos e 21 falhas simuladas.
+2026-04-26 20:56:08,143 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.02, saldo=100.19, índice=41, retorno=0.20%
+2026-04-26 20:56:08,143 - INFO - Rodada 55 concluída - agentes restantes: 5
+2026-04-26 20:56:08,155 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.01, saldo=100.25, índice=42, retorno=-0.08%
+2026-04-26 20:56:08,166 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.01, saldo=100.19, índice=42, retorno=-0.08%
+2026-04-26 20:56:08,176 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.01, saldo=100.19, índice=42, retorno=-0.08%
+2026-04-26 20:56:08,188 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.01, saldo=100.19, índice=42, retorno=-0.08%
+2026-04-26 20:56:08,199 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.01, saldo=100.19, índice=42, retorno=-0.08%
+2026-04-26 20:56:08,199 - INFO - Rodada 56 concluída - agentes restantes: 5
+2026-04-26 20:56:08,378 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 679 sucessos e 21 falhas simuladas.
+2026-04-26 20:56:08,379 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.82 e momentum -0.2328
+2026-04-26 20:56:08,379 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.03, saldo=100.28, índice=175, retorno=0.32%
+2026-04-26 20:56:08,555 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 678 sucessos e 22 falhas simuladas.
+2026-04-26 20:56:08,555 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.03, saldo=100.22, índice=175, retorno=0.32%
+2026-04-26 20:56:08,735 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 678 sucessos e 22 falhas simuladas.
+2026-04-26 20:56:08,735 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.03, saldo=100.22, índice=175, retorno=0.32%
+2026-04-26 20:56:08,917 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 678 sucessos e 22 falhas simuladas.
+2026-04-26 20:56:08,917 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.03, saldo=100.22, índice=175, retorno=0.32%
+2026-04-26 20:56:09,097 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 678 sucessos e 22 falhas simuladas.
+2026-04-26 20:56:09,097 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.03, saldo=100.22, índice=175, retorno=0.32%
+2026-04-26 20:56:09,097 - INFO - Rodada 57 concluída - agentes restantes: 5
+2026-04-26 20:56:09,108 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.01, saldo=100.27, índice=54, retorno=-0.12%
+2026-04-26 20:56:09,119 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 54.
+2026-04-26 20:56:09,130 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 54.
+2026-04-26 20:56:09,142 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 54.
+2026-04-26 20:56:09,153 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 54.
+2026-04-26 20:56:09,153 - INFO - Rodada 58 concluída - agentes restantes: 5
+2026-04-26 20:56:09,343 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 680 sucessos e 22 falhas simuladas.
+2026-04-26 20:56:09,344 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.81 e momentum -0.2324
+2026-04-26 20:56:09,344 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.02, saldo=100.29, índice=90, retorno=0.16%
+2026-04-26 20:56:09,522 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 679 sucessos e 22 falhas simuladas.
+2026-04-26 20:56:09,522 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.02, saldo=100.23, índice=90, retorno=0.16%
+2026-04-26 20:56:09,708 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 679 sucessos e 22 falhas simuladas.
+2026-04-26 20:56:09,709 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.02, saldo=100.23, índice=90, retorno=0.16%
+2026-04-26 20:56:09,914 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 679 sucessos e 22 falhas simuladas.
+2026-04-26 20:56:09,914 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.02, saldo=100.23, índice=90, retorno=0.16%
+2026-04-26 20:56:10,094 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 679 sucessos e 22 falhas simuladas.
+2026-04-26 20:56:10,095 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.02, saldo=100.23, índice=90, retorno=0.16%
+2026-04-26 20:56:10,095 - INFO - Rodada 59 concluída - agentes restantes: 5
+2026-04-26 20:56:10,106 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.01, saldo=100.28, índice=98, retorno=-0.08%
+2026-04-26 20:56:10,117 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.01, saldo=100.23, índice=98, retorno=-0.08%
+2026-04-26 20:56:10,128 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.01, saldo=100.23, índice=98, retorno=-0.08%
+2026-04-26 20:56:10,140 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.01, saldo=100.23, índice=98, retorno=-0.08%
+2026-04-26 20:56:10,150 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.01, saldo=100.23, índice=98, retorno=-0.08%
+2026-04-26 20:56:10,151 - INFO - Rodada 60 concluída - agentes restantes: 5
+2026-04-26 20:56:10,161 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 123.
+2026-04-26 20:56:10,342 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 680 sucessos e 23 falhas simuladas.
+2026-04-26 20:56:10,342 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.03, saldo=100.26, índice=123, retorno=0.32%
+2026-04-26 20:56:10,525 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 680 sucessos e 23 falhas simuladas.
+2026-04-26 20:56:10,525 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.03, saldo=100.26, índice=123, retorno=0.32%
+2026-04-26 20:56:10,709 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 680 sucessos e 23 falhas simuladas.
+2026-04-26 20:56:10,709 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.03, saldo=100.26, índice=123, retorno=0.32%
+2026-04-26 20:56:10,955 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 680 sucessos e 23 falhas simuladas.
+2026-04-26 20:56:10,955 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.03, saldo=100.26, índice=123, retorno=0.32%
+2026-04-26 20:56:10,955 - INFO - Rodada 61 concluída - agentes restantes: 5
+2026-04-26 20:56:10,968 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.00, saldo=100.25, índice=30, retorno=-0.04%
+2026-04-26 20:56:10,981 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.00, saldo=100.25, índice=30, retorno=-0.04%
+2026-04-26 20:56:10,993 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.00, saldo=100.25, índice=30, retorno=-0.04%
+2026-04-26 20:56:11,004 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.00, saldo=100.25, índice=30, retorno=-0.04%
+2026-04-26 20:56:11,005 - INFO - Rodada 62 concluída - agentes restantes: 5
+2026-04-26 20:56:11,187 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 681 sucessos e 23 falhas simuladas.
+2026-04-26 20:56:11,187 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.81 e momentum -0.2321
+2026-04-26 20:56:11,188 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.01, saldo=100.29, índice=194, retorno=0.12%
+2026-04-26 20:56:11,375 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 681 sucessos e 24 falhas simuladas.
+2026-04-26 20:56:11,375 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.01, saldo=100.27, índice=194, retorno=0.12%
+2026-04-26 20:56:11,560 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 681 sucessos e 24 falhas simuladas.
+2026-04-26 20:56:11,560 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.01, saldo=100.27, índice=194, retorno=0.12%
+2026-04-26 20:56:11,737 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 681 sucessos e 24 falhas simuladas.
+2026-04-26 20:56:11,737 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.01, saldo=100.27, índice=194, retorno=0.12%
+2026-04-26 20:56:11,925 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 681 sucessos e 24 falhas simuladas.
+2026-04-26 20:56:11,925 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.01, saldo=100.27, índice=194, retorno=0.12%
+2026-04-26 20:56:11,925 - INFO - Rodada 63 concluída - agentes restantes: 5
+2026-04-26 20:56:12,105 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 682 sucessos e 24 falhas simuladas.
+2026-04-26 20:56:12,105 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.04, saldo=100.30, índice=31, retorno=0.36%
+2026-04-26 20:56:12,301 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 682 sucessos e 24 falhas simuladas.
+2026-04-26 20:56:12,301 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.04, saldo=100.30, índice=31, retorno=0.36%
+2026-04-26 20:56:12,481 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 682 sucessos e 24 falhas simuladas.
+2026-04-26 20:56:12,481 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.04, saldo=100.30, índice=31, retorno=0.36%
+2026-04-26 20:56:12,669 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 682 sucessos e 24 falhas simuladas.
+2026-04-26 20:56:12,669 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.04, saldo=100.30, índice=31, retorno=0.36%
+2026-04-26 20:56:12,669 - INFO - Rodada 64 concluída - agentes restantes: 5
+2026-04-26 20:56:12,681 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 50.
+2026-04-26 20:56:12,694 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 50.
+2026-04-26 20:56:12,706 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 50.
+2026-04-26 20:56:12,718 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 50.
+2026-04-26 20:56:12,731 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 50.
+2026-04-26 20:56:12,731 - INFO - Rodada 65 concluída - agentes restantes: 5
+2026-04-26 20:56:12,951 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 682 sucessos e 23 falhas simuladas.
+2026-04-26 20:56:12,952 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.80 e momentum -0.2318
+2026-04-26 20:56:12,952 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.02, saldo=100.31, índice=87, retorno=0.20%
+2026-04-26 20:56:13,161 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 683 sucessos e 24 falhas simuladas.
+2026-04-26 20:56:13,161 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.02, saldo=100.32, índice=87, retorno=0.20%
+2026-04-26 20:56:13,345 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 683 sucessos e 24 falhas simuladas.
+2026-04-26 20:56:13,345 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.02, saldo=100.32, índice=87, retorno=0.20%
+2026-04-26 20:56:13,536 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 683 sucessos e 24 falhas simuladas.
+2026-04-26 20:56:13,536 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.02, saldo=100.32, índice=87, retorno=0.20%
+2026-04-26 20:56:13,717 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 683 sucessos e 24 falhas simuladas.
+2026-04-26 20:56:13,717 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.02, saldo=100.32, índice=87, retorno=0.20%
+2026-04-26 20:56:13,717 - INFO - Rodada 66 concluída - agentes restantes: 5
+2026-04-26 20:56:13,728 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 62.
+2026-04-26 20:56:13,739 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.01, saldo=100.31, índice=62, retorno=-0.12%
+2026-04-26 20:56:13,750 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.01, saldo=100.31, índice=62, retorno=-0.12%
+2026-04-26 20:56:13,761 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.01, saldo=100.31, índice=62, retorno=-0.12%
+2026-04-26 20:56:13,773 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.01, saldo=100.31, índice=62, retorno=-0.12%
+2026-04-26 20:56:13,773 - INFO - Rodada 67 concluída - agentes restantes: 5
+2026-04-26 20:56:13,955 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 683 sucessos e 23 falhas simuladas.
+2026-04-26 20:56:13,956 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.80 e momentum -0.2314
+2026-04-26 20:56:13,956 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.02, saldo=100.33, índice=109, retorno=0.16%
+2026-04-26 20:56:14,139 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 684 sucessos e 25 falhas simuladas.
+2026-04-26 20:56:14,139 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.02, saldo=100.33, índice=109, retorno=0.16%
+2026-04-26 20:56:14,342 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 684 sucessos e 25 falhas simuladas.
+2026-04-26 20:56:14,343 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.02, saldo=100.33, índice=109, retorno=0.16%
+2026-04-26 20:56:14,529 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 684 sucessos e 25 falhas simuladas.
+2026-04-26 20:56:14,529 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.02, saldo=100.33, índice=109, retorno=0.16%
+2026-04-26 20:56:14,712 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 684 sucessos e 25 falhas simuladas.
+2026-04-26 20:56:14,712 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.02, saldo=100.33, índice=109, retorno=0.16%
+2026-04-26 20:56:14,712 - INFO - Rodada 68 concluída - agentes restantes: 5
+2026-04-26 20:56:14,893 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 684 sucessos e 23 falhas simuladas.
+2026-04-26 20:56:14,893 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.79 e momentum -0.2311
+2026-04-26 20:56:14,893 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.01, saldo=100.34, índice=95, retorno=0.12%
+2026-04-26 20:56:15,074 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 685 sucessos e 25 falhas simuladas.
+2026-04-26 20:56:15,074 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.01, saldo=100.34, índice=95, retorno=0.12%
+2026-04-26 20:56:15,256 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 685 sucessos e 25 falhas simuladas.
+2026-04-26 20:56:15,256 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.01, saldo=100.34, índice=95, retorno=0.12%
+2026-04-26 20:56:15,437 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 685 sucessos e 25 falhas simuladas.
+2026-04-26 20:56:15,437 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.01, saldo=100.34, índice=95, retorno=0.12%
+2026-04-26 20:56:15,629 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 685 sucessos e 25 falhas simuladas.
+2026-04-26 20:56:15,630 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.01, saldo=100.34, índice=95, retorno=0.12%
+2026-04-26 20:56:15,630 - INFO - Rodada 69 concluída - agentes restantes: 5
+2026-04-26 20:56:15,823 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 685 sucessos e 23 falhas simuladas.
+2026-04-26 20:56:15,824 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.82 e momentum -0.2308
+2026-04-26 20:56:15,824 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.00, saldo=100.34, índice=131, retorno=0.04%
+2026-04-26 20:56:16,014 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 686 sucessos e 25 falhas simuladas.
+2026-04-26 20:56:16,014 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.00, saldo=100.34, índice=131, retorno=0.04%
+2026-04-26 20:56:16,198 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 686 sucessos e 25 falhas simuladas.
+2026-04-26 20:56:16,198 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.00, saldo=100.34, índice=131, retorno=0.04%
+2026-04-26 20:56:16,395 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 686 sucessos e 25 falhas simuladas.
+2026-04-26 20:56:16,395 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.00, saldo=100.34, índice=131, retorno=0.04%
+2026-04-26 20:56:16,578 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 686 sucessos e 25 falhas simuladas.
+2026-04-26 20:56:16,579 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.00, saldo=100.34, índice=131, retorno=0.04%
+2026-04-26 20:56:16,579 - INFO - Rodada 70 concluída - agentes restantes: 5
+2026-04-26 20:56:16,589 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 191.
+2026-04-26 20:56:16,600 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 191.
+2026-04-26 20:56:16,611 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 191.
+2026-04-26 20:56:16,622 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 191.
+2026-04-26 20:56:16,633 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 191.
+2026-04-26 20:56:16,633 - INFO - Rodada 71 concluída - agentes restantes: 5
+2026-04-26 20:56:16,644 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 103.
+2026-04-26 20:56:16,655 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 103.
+2026-04-26 20:56:16,666 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 103.
+2026-04-26 20:56:16,678 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 103.
+2026-04-26 20:56:16,690 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 103.
+2026-04-26 20:56:16,690 - INFO - Rodada 72 concluída - agentes restantes: 5
+2026-04-26 20:56:16,700 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 58.
+2026-04-26 20:56:16,711 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 58.
+2026-04-26 20:56:16,723 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 58.
+2026-04-26 20:56:16,735 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 58.
+2026-04-26 20:56:16,746 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 58.
+2026-04-26 20:56:16,746 - INFO - Rodada 73 concluída - agentes restantes: 5
+2026-04-26 20:56:16,757 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 163.
+2026-04-26 20:56:16,768 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.00, saldo=100.34, índice=163, retorno=-0.04%
+2026-04-26 20:56:16,780 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.00, saldo=100.34, índice=163, retorno=-0.04%
+2026-04-26 20:56:16,791 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.00, saldo=100.34, índice=163, retorno=-0.04%
+2026-04-26 20:56:16,802 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.00, saldo=100.34, índice=163, retorno=-0.04%
+2026-04-26 20:56:16,802 - INFO - Rodada 74 concluída - agentes restantes: 5
+2026-04-26 20:56:16,813 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 53.
+2026-04-26 20:56:16,825 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 53.
+2026-04-26 20:56:16,838 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 53.
+2026-04-26 20:56:16,849 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 53.
+2026-04-26 20:56:16,860 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 53.
+2026-04-26 20:56:16,860 - INFO - Rodada 75 concluída - agentes restantes: 5
+2026-04-26 20:56:16,872 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.00, saldo=100.34, índice=120, retorno=-0.04%
+2026-04-26 20:56:16,884 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 120.
+2026-04-26 20:56:16,896 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 120.
+2026-04-26 20:56:16,908 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 120.
+2026-04-26 20:56:16,919 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 120.
+2026-04-26 20:56:16,919 - INFO - Rodada 76 concluída - agentes restantes: 5
+2026-04-26 20:56:16,930 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 156.
+2026-04-26 20:56:16,943 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 156.
+2026-04-26 20:56:16,955 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 156.
+2026-04-26 20:56:16,967 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 156.
+2026-04-26 20:56:16,979 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 156.
+2026-04-26 20:56:16,979 - INFO - Rodada 77 concluída - agentes restantes: 5
+2026-04-26 20:56:16,993 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.00, saldo=100.33, índice=64, retorno=-0.04%
+2026-04-26 20:56:17,006 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.00, saldo=100.33, índice=64, retorno=-0.04%
+2026-04-26 20:56:17,017 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.00, saldo=100.33, índice=64, retorno=-0.04%
+2026-04-26 20:56:17,030 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.00, saldo=100.33, índice=64, retorno=-0.04%
+2026-04-26 20:56:17,043 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.00, saldo=100.33, índice=64, retorno=-0.04%
+2026-04-26 20:56:17,043 - INFO - Rodada 78 concluída - agentes restantes: 5
+2026-04-26 20:56:17,229 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 686 sucessos e 25 falhas simuladas.
+2026-04-26 20:56:17,229 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.82 e momentum -0.2304
+2026-04-26 20:56:17,229 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.01, saldo=100.35, índice=101, retorno=0.12%
+2026-04-26 20:56:17,411 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 687 sucessos e 27 falhas simuladas.
+2026-04-26 20:56:17,411 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.01, saldo=100.35, índice=101, retorno=0.12%
+2026-04-26 20:56:17,610 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 687 sucessos e 27 falhas simuladas.
+2026-04-26 20:56:17,610 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.01, saldo=100.35, índice=101, retorno=0.12%
+2026-04-26 20:56:17,804 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 687 sucessos e 27 falhas simuladas.
+2026-04-26 20:56:17,804 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.01, saldo=100.35, índice=101, retorno=0.12%
+2026-04-26 20:56:18,008 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 687 sucessos e 27 falhas simuladas.
+2026-04-26 20:56:18,008 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.01, saldo=100.35, índice=101, retorno=0.12%
+2026-04-26 20:56:18,008 - INFO - Rodada 79 concluída - agentes restantes: 5
+2026-04-26 20:56:18,021 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.03, saldo=100.32, índice=193, retorno=-0.28%
+2026-04-26 20:56:18,034 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 193.
+2026-04-26 20:56:18,047 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 193.
+2026-04-26 20:56:18,059 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 193.
+2026-04-26 20:56:18,072 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 193.
+2026-04-26 20:56:18,072 - INFO - Rodada 80 concluída - agentes restantes: 5
+2026-04-26 20:56:18,083 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 170.
+2026-04-26 20:56:18,096 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 170.
+2026-04-26 20:56:18,108 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 170.
+2026-04-26 20:56:18,120 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 170.
+2026-04-26 20:56:18,132 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 170.
+2026-04-26 20:56:18,133 - INFO - Rodada 81 concluída - agentes restantes: 5
+2026-04-26 20:56:18,144 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 167.
+2026-04-26 20:56:18,156 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 167.
+2026-04-26 20:56:18,170 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 167.
+2026-04-26 20:56:18,183 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 167.
+2026-04-26 20:56:18,195 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 167.
+2026-04-26 20:56:18,195 - INFO - Rodada 82 concluída - agentes restantes: 5
+2026-04-26 20:56:18,208 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.01, saldo=100.31, índice=75, retorno=-0.08%
+2026-04-26 20:56:18,219 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 75.
+2026-04-26 20:56:18,232 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 75.
+2026-04-26 20:56:18,244 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 75.
+2026-04-26 20:56:18,256 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 75.
+2026-04-26 20:56:18,256 - INFO - Rodada 83 concluída - agentes restantes: 5
+2026-04-26 20:56:18,268 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 146.
+2026-04-26 20:56:18,281 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 146.
+2026-04-26 20:56:18,293 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 146.
+2026-04-26 20:56:18,306 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 146.
+2026-04-26 20:56:18,319 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 146.
+2026-04-26 20:56:18,319 - INFO - Rodada 84 concluída - agentes restantes: 5
+2026-04-26 20:56:18,333 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 157.
+2026-04-26 20:56:18,345 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.02, saldo=100.33, índice=157, retorno=-0.16%
+2026-04-26 20:56:18,358 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.02, saldo=100.33, índice=157, retorno=-0.16%
+2026-04-26 20:56:18,372 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.02, saldo=100.33, índice=157, retorno=-0.16%
+2026-04-26 20:56:18,384 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.02, saldo=100.33, índice=157, retorno=-0.16%
+2026-04-26 20:56:18,384 - INFO - Rodada 85 concluída - agentes restantes: 5
+2026-04-26 20:56:18,397 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.00, saldo=100.31, índice=139, retorno=-0.04%
+2026-04-26 20:56:18,410 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.00, saldo=100.33, índice=139, retorno=-0.04%
+2026-04-26 20:56:18,422 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.00, saldo=100.33, índice=139, retorno=-0.04%
+2026-04-26 20:56:18,434 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.00, saldo=100.33, índice=139, retorno=-0.04%
+2026-04-26 20:56:18,448 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.00, saldo=100.33, índice=139, retorno=-0.04%
+2026-04-26 20:56:18,448 - INFO - Rodada 86 concluída - agentes restantes: 5
+2026-04-26 20:56:18,637 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 687 sucessos e 28 falhas simuladas.
+2026-04-26 20:56:18,638 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Trend following com EMA 21/55' para 'Supertrend sell' com média RSI 42.85 e momentum -0.2301
+2026-04-26 20:56:18,638 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.00, saldo=100.31, índice=144, retorno=0.04%
+2026-04-26 20:56:18,819 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 688 sucessos e 29 falhas simuladas.
+2026-04-26 20:56:18,819 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.00, saldo=100.33, índice=144, retorno=0.04%
+2026-04-26 20:56:19,001 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 688 sucessos e 29 falhas simuladas.
+2026-04-26 20:56:19,001 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.00, saldo=100.33, índice=144, retorno=0.04%
+2026-04-26 20:56:19,183 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 688 sucessos e 29 falhas simuladas.
+2026-04-26 20:56:19,183 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.00, saldo=100.33, índice=144, retorno=0.04%
+2026-04-26 20:56:19,364 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 688 sucessos e 29 falhas simuladas.
+2026-04-26 20:56:19,364 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.00, saldo=100.33, índice=144, retorno=0.04%
+2026-04-26 20:56:19,364 - INFO - Rodada 87 concluída - agentes restantes: 5
+2026-04-26 20:56:19,375 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 192.
+2026-04-26 20:56:19,387 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 192.
+2026-04-26 20:56:19,398 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 192.
+2026-04-26 20:56:19,409 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 192.
+2026-04-26 20:56:19,421 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 192.
+2026-04-26 20:56:19,421 - INFO - Rodada 88 concluída - agentes restantes: 5
+2026-04-26 20:56:19,432 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 50.
+2026-04-26 20:56:19,442 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 50.
+2026-04-26 20:56:19,453 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 50.
+2026-04-26 20:56:19,464 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 50.
+2026-04-26 20:56:19,481 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 50.
+2026-04-26 20:56:19,481 - INFO - Rodada 89 concluída - agentes restantes: 5
+2026-04-26 20:56:19,667 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 688 sucessos e 28 falhas simuladas.
+2026-04-26 20:56:19,668 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.85 e momentum -0.2297
+2026-04-26 20:56:19,668 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.01, saldo=100.32, índice=99, retorno=0.08%
+2026-04-26 20:56:19,894 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 689 sucessos e 29 falhas simuladas.
+2026-04-26 20:56:19,894 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.01, saldo=100.34, índice=99, retorno=0.08%
+2026-04-26 20:56:20,077 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 689 sucessos e 29 falhas simuladas.
+2026-04-26 20:56:20,077 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.01, saldo=100.34, índice=99, retorno=0.08%
+2026-04-26 20:56:20,257 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 689 sucessos e 29 falhas simuladas.
+2026-04-26 20:56:20,257 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.01, saldo=100.34, índice=99, retorno=0.08%
+2026-04-26 20:56:20,441 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 689 sucessos e 29 falhas simuladas.
+2026-04-26 20:56:20,441 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.01, saldo=100.34, índice=99, retorno=0.08%
+2026-04-26 20:56:20,441 - INFO - Rodada 90 concluída - agentes restantes: 5
+2026-04-26 20:56:20,452 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.00, saldo=100.31, índice=91, retorno=-0.04%
+2026-04-26 20:56:20,463 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 91.
+2026-04-26 20:56:20,473 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 91.
+2026-04-26 20:56:20,485 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 91.
+2026-04-26 20:56:20,496 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 91.
+2026-04-26 20:56:20,497 - INFO - Rodada 91 concluída - agentes restantes: 5
+2026-04-26 20:56:20,508 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 46.
+2026-04-26 20:56:20,519 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 46.
+2026-04-26 20:56:20,530 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 46.
+2026-04-26 20:56:20,540 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 46.
+2026-04-26 20:56:20,540 - INFO - Rodada 92 concluída - agentes restantes: 5
+2026-04-26 20:56:20,551 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.00, saldo=100.31, índice=100, retorno=-0.04%
+2026-04-26 20:56:20,563 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.00, saldo=100.33, índice=100, retorno=-0.04%
+2026-04-26 20:56:20,574 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.00, saldo=100.33, índice=100, retorno=-0.04%
+2026-04-26 20:56:20,585 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.00, saldo=100.33, índice=100, retorno=-0.04%
+2026-04-26 20:56:20,597 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.00, saldo=100.33, índice=100, retorno=-0.04%
+2026-04-26 20:56:20,597 - INFO - Rodada 93 concluída - agentes restantes: 5
+2026-04-26 20:56:20,609 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.00, saldo=100.31, índice=85, retorno=-0.04%
+2026-04-26 20:56:20,620 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 85.
+2026-04-26 20:56:20,631 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 85.
+2026-04-26 20:56:20,642 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 85.
+2026-04-26 20:56:20,653 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 85.
+2026-04-26 20:56:20,653 - INFO - Rodada 94 concluída - agentes restantes: 5
+2026-04-26 20:56:20,892 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 689 sucessos e 31 falhas simuladas.
+2026-04-26 20:56:20,893 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.85 e momentum -0.2294
+2026-04-26 20:56:20,893 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.00, saldo=100.31, índice=108, retorno=0.04%
+2026-04-26 20:56:21,112 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 690 sucessos e 30 falhas simuladas.
+2026-04-26 20:56:21,112 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.00, saldo=100.34, índice=108, retorno=0.04%
+2026-04-26 20:56:21,293 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 690 sucessos e 30 falhas simuladas.
+2026-04-26 20:56:21,293 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.00, saldo=100.34, índice=108, retorno=0.04%
+2026-04-26 20:56:21,477 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 690 sucessos e 30 falhas simuladas.
+2026-04-26 20:56:21,477 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.00, saldo=100.34, índice=108, retorno=0.04%
+2026-04-26 20:56:21,658 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 690 sucessos e 30 falhas simuladas.
+2026-04-26 20:56:21,658 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.00, saldo=100.34, índice=108, retorno=0.04%
+2026-04-26 20:56:21,658 - INFO - Rodada 95 concluída - agentes restantes: 5
+2026-04-26 20:56:21,849 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f treinou com 690 sucessos e 31 falhas simuladas.
+2026-04-26 20:56:21,849 - INFO - SuperAgente e21c0f99-0ec0-439a-a17e-119feec6e43f evoluiu de 'Supertrend sell' para 'Supertrend sell' com média RSI 42.85 e momentum -0.2291
+2026-04-26 20:56:21,849 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade vencedor: lucro=0.02, saldo=100.33, índice=96, retorno=0.16%
+2026-04-26 20:56:22,056 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe treinou com 691 sucessos e 30 falhas simuladas.
+2026-04-26 20:56:22,056 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade vencedor: lucro=0.02, saldo=100.36, índice=96, retorno=0.16%
+2026-04-26 20:56:22,251 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d treinou com 691 sucessos e 30 falhas simuladas.
+2026-04-26 20:56:22,251 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade vencedor: lucro=0.02, saldo=100.36, índice=96, retorno=0.16%
+2026-04-26 20:56:22,435 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 treinou com 691 sucessos e 30 falhas simuladas.
+2026-04-26 20:56:22,435 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade vencedor: lucro=0.02, saldo=100.36, índice=96, retorno=0.16%
+2026-04-26 20:56:22,632 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac treinou com 691 sucessos e 30 falhas simuladas.
+2026-04-26 20:56:22,633 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade vencedor: lucro=0.02, saldo=100.36, índice=96, retorno=0.16%
+2026-04-26 20:56:22,633 - INFO - Rodada 96 concluída - agentes restantes: 5
+2026-04-26 20:56:22,644 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 42.
+2026-04-26 20:56:22,655 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 42.
+2026-04-26 20:56:22,666 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 42.
+2026-04-26 20:56:22,677 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 42.
+2026-04-26 20:56:22,677 - INFO - Rodada 97 concluída - agentes restantes: 5
+2026-04-26 20:56:22,688 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 179.
+2026-04-26 20:56:22,699 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 179.
+2026-04-26 20:56:22,710 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 179.
+2026-04-26 20:56:22,722 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 179.
+2026-04-26 20:56:22,733 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 179.
+2026-04-26 20:56:22,733 - INFO - Rodada 98 concluída - agentes restantes: 5
+2026-04-26 20:56:22,744 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f trade perdedor: perda=-0.01, saldo=100.31, índice=135, retorno=-0.12%
+2026-04-26 20:56:22,755 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe trade perdedor: perda=-0.01, saldo=100.34, índice=135, retorno=-0.12%
+2026-04-26 20:56:22,766 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d trade perdedor: perda=-0.01, saldo=100.34, índice=135, retorno=-0.12%
+2026-04-26 20:56:22,778 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 trade perdedor: perda=-0.01, saldo=100.34, índice=135, retorno=-0.12%
+2026-04-26 20:56:22,790 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac trade perdedor: perda=-0.01, saldo=100.34, índice=135, retorno=-0.12%
+2026-04-26 20:56:22,791 - INFO - Rodada 99 concluída - agentes restantes: 5
+2026-04-26 20:56:22,802 - INFO - Agente e21c0f99-0ec0-439a-a17e-119feec6e43f ignorou trade no índice 119.
+2026-04-26 20:56:22,814 - INFO - Agente 922a3106-cc27-480e-992d-1c52c531f9fe ignorou trade no índice 119.
+2026-04-26 20:56:22,833 - INFO - Agente a7576870-8ec5-4058-9341-34efba29414d ignorou trade no índice 119.
+2026-04-26 20:56:22,851 - INFO - Agente db27984d-0d6e-4328-86d8-4f1952b959b7 ignorou trade no índice 119.
+2026-04-26 20:56:22,867 - INFO - Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac ignorou trade no índice 119.
+2026-04-26 20:56:22,868 - INFO - Rodada 100 concluída - agentes restantes: 5
+2026-04-26 20:56:22,868 - INFO - Resumo Agente e21c0f99-0ec0-439a-a17e-119feec6e43f - Saldo: 100.31, Trades: 94, Sucessos: 690, Falhas: 32
+2026-04-26 20:56:22,868 - INFO - Resumo Agente 922a3106-cc27-480e-992d-1c52c531f9fe - Saldo: 100.34, Trades: 100, Sucessos: 691, Falhas: 31
+2026-04-26 20:56:22,868 - INFO - Resumo Agente a7576870-8ec5-4058-9341-34efba29414d - Saldo: 100.34, Trades: 100, Sucessos: 691, Falhas: 31
+2026-04-26 20:56:22,868 - INFO - Resumo Agente db27984d-0d6e-4328-86d8-4f1952b959b7 - Saldo: 100.34, Trades: 100, Sucessos: 691, Falhas: 31
+2026-04-26 20:56:22,868 - INFO - Resumo Agente f8264824-b2a5-4bac-a2c1-c8e0b55228ac - Saldo: 100.34, Trades: 100, Sucessos: 691, Falhas: 31
+2026-04-26 20:56:22,868 - INFO - Simulação concluída.
